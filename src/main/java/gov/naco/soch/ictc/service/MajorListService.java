@@ -133,7 +133,8 @@ public class MajorListService {
 		        		mapper.setSampleCollectionDate(dto[7] != null ? (Date) dto[7] : null);
 		        		//8 is null
 		        		mapper.setTestTypeDesc(dto[9] != null ? (String) dto[9] : null);
-		        		//10 is null
+		        		mapper.setResultStatusId(dto[10] != null ? ((Integer) dto[10]).intValue() : null);
+		        		mapper.setResultStatus(dto[10] != null ? ((Integer) dto[10]).intValue() : null);
 		        		mapper.setResultStatusDesc(dto[11] != null ? (String) dto[11] : null);
 		        		//12 is null
 		        		mapper.setHivStatusDesc(dto[13] != null ? (String) dto[13] : null);
@@ -232,9 +233,9 @@ public class MajorListService {
 		        		mapper.setArtCenterCode(null); //31
 		        		mapper.setReportReceivedDate(dto[32] != null ? (Date) dto[32] : null) ;
 		        		mapper.setReportDeliveryDate(dto[33] != null ? (Date) dto[33] : null);
-		        		//34 is null
-		        		
-		        		//36 is null
+		        		mapper.setLabId(dto[34] != null ? ((Integer) dto[34]).intValue() : null);  //34  labId
+		        		//35 labName - at beginning
+		        		mapper.setLabCode(dto[36] != null ? (String) dto[36] : null);//36 is labCode
 		        		//37 is null
 		        		mapper.setCategoryId(dto[38] != null ? ((Integer) dto[38]).intValue() : null);
 		        		mapper.setGenderId(dto[39] != null ? ((Integer) dto[39]).intValue() : null);
@@ -359,5 +360,69 @@ public class MajorListService {
 			
 	    	
 	       }
+	     
+	       public List<NewICTCDto> listPregnantWomen(int equalsFacilityId, Integer notEqualsCategoryId,Integer equalsCategoryId, String pid, String mobile, String firstName , Pageable page) {
+	   		
+	   		Integer categoryId = notEqualsCategoryId != null ? notEqualsCategoryId : equalsCategoryId;
+	   		log.info("params"+  pid, mobile, firstName);
 
+	   		List<Object[]> obj = null;
+	   		if(notEqualsCategoryId != null) {
+	   			obj= ictc.listOfBeneficiaryPW(equalsFacilityId, categoryId, "%"+pid+"%", page );
+	   		}
+	   		
+	   		log.info("Obj Size : {}" + obj.size());
+	   		List<NewICTCDto> dtoList = new ArrayList<>();
+	   		dtoList = obj.stream()
+	   			    .map(dto -> {
+	   			    	
+	   			    	NewICTCDto mapper = new NewICTCDto();
+	   		        	try {
+	   			    	
+	   		        	//important
+	   		        	mapper.setId(dto[0] != null ? ((Integer) dto[0]).intValue() : null);
+	   		        	mapper.setUid(dto[1] != null ? (String) dto[1] : null);
+	   		        	mapper.setPid(dto[2] != null ? (String) dto[2] : null);
+	   		        	mapper.setFirstName(dto[3] != null ? (String) dto[3] : null);
+	   		        	mapper.setMiddleName(dto[4] != null ? (String) dto[4] : null);
+	   		        	mapper.setLastName(dto[5] != null ? (String) dto[5] : null);
+	   		        	mapper.setVisitDate(dto[6] != null ? (Date) dto[6] : null);
+	   		        	mapper.setBeneficiaryId(dto[7] != null ? ((Integer) dto[7]).intValue() : null);
+	   		        	mapper.setMobileNumber(dto[8] != null ? (String) dto[8] : null);
+	   		        	mapper.setAge(dto[9] != null ? (String) dto[9] : null);
+	   		        	
+	   		        	mapper.setGenderId(dto[18] != null ? ((Integer) dto[18]).intValue() : null);
+	   		        	
+	   		        	mapper.setIsPregnant(dto[10] != null ? (Boolean) dto[10] : null);
+	   		        	mapper.setTestedDate(dto[11] != null ? (Date) dto[11] : null);
+	   		        	mapper.setHivStatus(dto[12] != null ? ((Integer) dto[12]).intValue() : null);
+	   	        		mapper.setHivType(dto[13] != null ? ((Integer) dto[13]).intValue() : null);
+	   	        		mapper.setDateOfBirth(dto[14] != null ? (Date) dto[14] : null); 
+	   		        	mapper.setResultStatus(dto[15] != null ? ((Integer) dto[15]).intValue() : null);
+	   	        		mapper.setVisitId(dto[16] != null ? ((Integer) dto[16]).intValue() : null);
+	   	        		mapper.setBeneficiaryStatus(dto[17] != null ? ((Integer) dto[17]).intValue() : null);
+	   	        		mapper.setGenderId(dto[18] != null ? ((Integer) dto[18]).intValue() : null);
+	   	        		mapper.setIsActive(dto[19] != null ? (Boolean) dto[19] : null);
+	   	        		mapper.setIsDeleted(dto[20] != null ? (Boolean) dto[20] : null);
+	   	        		mapper.setDeletedReason(dto[21] != null ? ((Integer) dto[21]).intValue() : null);
+	   	        		
+	   	        		mapper.setDeletedReasonComment(dto[22] != null ? (String) dto[22] : null);
+	   	        		mapper.setRegisteredFacilityId(dto[23] != null ? ((Integer) dto[23]).intValue() : null);
+	   	        		mapper.setBeneficiaryStatusDesc(dto[24] != null ? (String) dto[24] : null);
+	   	        		mapper.setHivStatusDesc(dto[25] != null ? (String) dto[25] : null);
+	   	        		mapper.setInfantCode(dto[26] != null ? (String) dto[26] : null);
+	   		        	}catch(Exception ex) {
+	   		        		ex.getMessage();
+	   		        	}
+	   		            return mapper;
+	   		        })
+	   		        .collect(Collectors.toList());
+	   		return dtoList;
+	   		
+	   	}
+	       
+	       public Integer findCountPW(Integer equalsFacilityId, Integer notEqualsCategoryId,Integer equalsCategoryId) {
+		   		if(notEqualsCategoryId != null) return ictc.countOfBeneficiaryNotCategoryPW(equalsFacilityId, notEqualsCategoryId);   		
+		   		return 0;
+		   }
 }

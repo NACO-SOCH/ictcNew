@@ -34,8 +34,28 @@ public class MajorListController {
     	if (page1 == null || size == null) { page1 = 0; }
     	Pageable pageable = PageRequest.of(page1, size, Sort.by("id").descending());
     	
-    	int totalListCount=service.findCount(equalsFacilityId, notEqualsCategoryId,equalsCategoryId);
         List<NewICTCDto> page= service.findByCriteriaBasic(equalsFacilityId,notEqualsCategoryId,equalsCategoryId,  pid, mobile, firstName, pageable);
+
+    	int totalListCount=service.findCount(equalsFacilityId, notEqualsCategoryId,equalsCategoryId);
+    	
+        HttpHeaders headers = new HttpHeaders();
+        headers.add("Access-Control-Expose-Headers", HEADER_X_TOTAL_COUNT);
+        headers.add(HEADER_X_TOTAL_COUNT, ""+totalListCount);
+        return ResponseEntity.ok().headers(headers).body(page);
+
+    }
+    
+    @GetMapping("/ictc-visit-list/listPregnantWomen")
+    public ResponseEntity<List<NewICTCDto>> listPregnantWomen(@RequestParam("page") Integer page1, @RequestParam("size") Integer size, @RequestParam(name = "categoryId.notEquals", required = false) Integer notEqualsCategoryId,
+            @RequestParam(name = "categoryId.equals", required = false) Integer equalsCategoryId,
+            @RequestParam("facilityId.equals") int equalsFacilityId,@RequestParam ("sort") String sortBy,
+            @RequestParam(value = "pid.contains", defaultValue = "") String pid, @RequestParam(value = "mobileNumber.contains", defaultValue = "") String mobile, @RequestParam(value = "firstName.contains", defaultValue = "") String firstName ) {
+    	
+    	if (page1 == null || size == null) { page1 = 0; }
+    	Pageable pageable = PageRequest.of(page1, size, Sort.by("id").descending());
+    	
+    	int totalListCount=service.findCountPW(equalsFacilityId, notEqualsCategoryId,equalsCategoryId);
+        List<NewICTCDto> page= service.listPregnantWomen(equalsFacilityId,notEqualsCategoryId,equalsCategoryId,  pid, mobile, firstName, pageable);
          
         HttpHeaders headers = new HttpHeaders();
         headers.add("Access-Control-Expose-Headers", HEADER_X_TOTAL_COUNT);

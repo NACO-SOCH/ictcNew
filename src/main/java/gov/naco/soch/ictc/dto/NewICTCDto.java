@@ -5,8 +5,6 @@ import java.util.Objects;
 
 public class NewICTCDto {
 
-	private static final Long serialVersionUID = 1L;
-
 	private int id;
 
 	private String pid;
@@ -120,6 +118,28 @@ public class NewICTCDto {
 	
 	private Integer currentHivStatus;
 	
+	private String currentHivType;
+	private Integer labId;
+	private String labCode;
+	
+	private Integer resultStatusId;
+	
+	public Integer getLabId() {
+		return labId;
+	}
+
+	public void setLabId(Integer labId) {
+		this.labId = labId;
+	}
+
+	public String getLabCode() {
+		return labCode;
+	}
+
+	public void setLabCode(String labCode) {
+		this.labCode = labCode;
+	}
+
 	
 	public String getGender() {
 		return gender;
@@ -633,5 +653,21 @@ public class NewICTCDto {
 
 	public void setCurrentHivStatus(Integer currentHivStatus) {
 		this.currentHivStatus = currentHivStatus;
+	}
+
+	public String getCurrentHivType() {
+		return currentHivType;
+	}
+
+	public void setCurrentHivType(String currentHivType) {
+		this.currentHivType = currentHivType;
+	}
+
+	public Integer getResultStatusId() {
+		return resultStatusId;
+	}
+
+	public void setResultStatusId(Integer resultStatusId) {
+		this.resultStatusId = resultStatusId;
 	}
 }
