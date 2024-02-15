@@ -1,0 +1,138 @@
+2024-02-09 09:48:45,520 INFO gov.naco.soch.ictc.IctcApplication [restartedMain] Starting IctcApplication on DESKTOP-N2FUUPQ with PID 27068 (D:\sochbackend\ictcNew\target\classes started by NACO in D:\sochbackend\ictcNew)
+2024-02-09 09:48:45,536 INFO gov.naco.soch.ictc.IctcApplication [restartedMain] The following profiles are active: @env@
+2024-02-09 09:48:45,587 INFO org.springframework.boot.devtools.restart.ChangeableUrls [restartedMain] The Class-Path manifest attribute in C:\Users\NACO\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2024-02-09 09:48:45,587 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-09 09:48:45,587 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-09 09:48:46,634 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-09 09:48:47,794 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 1153ms. Found 455 JPA repository interfaces.
+2024-02-09 09:48:48,767 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-09 09:48:48,830 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-09 09:48:48,830 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-09 09:48:48,830 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@718fcae3' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-09 09:48:48,845 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-09 09:48:48,845 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-09 09:48:49,661 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9050 (http)
+2024-02-09 09:48:49,677 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2024-02-09 09:48:49,677 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2024-02-09 09:48:49,850 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/ictcNew] [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-02-09 09:48:49,850 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 4263 ms
+2024-02-09 09:48:50,351 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] Driver class org.postgresql.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ictcNew
+  delegate: true
+----------> Parent Classloader:
+org.springframework.boot.devtools.restart.classloader.RestartClassLoader@5bdca4d6
+
+2024-02-09 09:48:50,571 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-09 09:48:50,649 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.4.9.Final}
+2024-02-09 09:48:50,822 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-02-09 09:48:50,947 WARN com.zaxxer.hikari.HikariConfig [restartedMain] SpringBootJPAHikariCP - maxLifetime is less than 30000ms, setting to default 1800000ms.
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] SpringBootJPAHikariCP - configuration:
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] allowPoolSuspension.............false
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] autoCommit......................false
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] catalog.........................none
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] connectionInitSql...............none
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] connectionTestQuery.............none
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] connectionTimeout...............50000
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] dataSource......................none
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] dataSourceClassName.............none
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] dataSourceJNDI..................none
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] dataSourceProperties............{password=<masked>}
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] driverClassName................."org.postgresql.Driver"
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] healthCheckProperties...........{}
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] healthCheckRegistry.............none
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] idleTimeout.....................10000
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] initializationFailTimeout.......1
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] isolateInternalQueries..........false
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] jdbcUrl.........................jdbc:postgresql://10.25.69.25:5432/soch_local_app_db?currentSchema=prison
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] leakDetectionThreshold..........2000
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] maxLifetime.....................1800000
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] maximumPoolSize.................50
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] metricRegistry..................none
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] metricsTrackerFactory...........none
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] minimumIdle.....................20
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] password........................<masked>
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] poolName........................"SpringBootJPAHikariCP"
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] readOnly........................false
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] registerMbeans..................false
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] scheduledExecutor...............none
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] schema..........................none
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] threadFactory...................internal
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] transactionIsolation............default
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] username........................"soch_stag_app_user"
+2024-02-09 09:48:50,947 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] validationTimeout...............5000
+2024-02-09 09:48:50,947 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] SpringBootJPAHikariCP - Starting...
+2024-02-09 09:48:51,088 DEBUG com.zaxxer.hikari.pool.HikariPool [restartedMain] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@77b174b7
+2024-02-09 09:48:51,088 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] SpringBootJPAHikariCP - Start completed.
+2024-02-09 09:48:51,104 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-02-09 09:48:51,199 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=1, active=1, idle=0, waiting=0)
+2024-02-09 09:48:51,199 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=1, active=1, idle=0, waiting=0)
+2024-02-09 09:48:51,199 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@2fc621bb
+2024-02-09 09:48:51,214 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@2101ca33
+2024-02-09 09:48:51,230 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@253e4acb
+2024-02-09 09:48:51,245 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@603cc008
+2024-02-09 09:48:51,261 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@7e69fe4d
+2024-02-09 09:48:51,261 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@5116e3e1
+2024-02-09 09:48:51,277 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@6a9831a
+2024-02-09 09:48:51,308 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@133f47
+2024-02-09 09:48:51,340 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@3139229e
+2024-02-09 09:48:51,355 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@5756c6b3
+2024-02-09 09:48:51,371 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@1dad2e10
+2024-02-09 09:48:51,386 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@45dc3e5
+2024-02-09 09:48:51,397 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@7c883c22
+2024-02-09 09:48:51,402 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@1d0a1e5e
+2024-02-09 09:48:51,418 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@69a36e41
+2024-02-09 09:48:51,434 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@30bca7b
+2024-02-09 09:48:51,434 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@3edf9f14
+2024-02-09 09:48:51,449 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@736a8e7f
+2024-02-09 09:48:51,481 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@1c93735
+2024-02-09 09:48:51,497 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@5c4c7d65
+2024-02-09 09:48:51,497 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - After adding stats (total=21, active=1, idle=20, waiting=0)
+2024-02-09 09:48:52,217 DEBUG com.zaxxer.hikari.pool.ProxyConnection [restartedMain] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@77b174b7 due to dirty commit state on close().
+2024-02-09 09:48:52,972 WARN org.hibernate.boot.internal.InFlightMetadataCollectorImpl [restartedMain] HHH000069: Duplicate generator name tiOstBeneficiary
+2024-02-09 09:48:53,333 WARN org.hibernate.orm.cache [restartedMain] HHH90001006: Missing cache[default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2024-02-09 09:48:53,443 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-update-timestamps-region' created in EhcacheManager.
+2024-02-09 09:48:53,443 WARN org.hibernate.orm.cache [restartedMain] HHH90001006: Missing cache[default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2024-02-09 09:48:53,443 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-query-results-region' created in EhcacheManager.
+2024-02-09 09:48:57,976 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-02-09 09:48:58,308 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-09 09:49:00,918 INFO gov.naco.soch.security.WebSecurityConfig [restartedMain] Server is starting with crossDomainAllowedOrigins->:
+2024-02-09 09:49:00,964 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@258f7c0d, org.springframework.security.web.context.SecurityContextPersistenceFilter@18e9ebc6, org.springframework.security.web.header.HeaderWriterFilter@5453a30a, org.springframework.web.filter.CorsFilter@5d774f20, org.springframework.security.web.authentication.logout.LogoutFilter@9704803, gov.naco.soch.security.JwtAuthenticationFilter@1ec49044, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1de61a24, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@221f3121, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@114e952, org.springframework.security.web.session.SessionManagementFilter@5660796f, org.springframework.security.web.access.ExceptionTranslationFilter@79306694, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@bb18dd7]
+2024-02-09 09:49:09,844 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2024-02-09 09:49:10,064 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [restartedMain] Initializing ExecutorService 'taskScheduler'
+2024-02-09 09:49:10,268 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-02-09 09:49:10,347 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9050 (http) with context path '/ictcNew'
+2024-02-09 09:49:10,362 INFO gov.naco.soch.ictc.IctcApplication [restartedMain] Started IctcApplication in 25.436 seconds (JVM running for 28.667)
+2024-02-09 09:49:21,216 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=21, active=0, idle=21, waiting=0)
+2024-02-09 09:49:21,216 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-02-09 09:49:21,216 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@5c4c7d65: (connection has passed idleTimeout)
+2024-02-09 09:49:51,230 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-02-09 09:49:51,230 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-02-09 09:50:12,299 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [Thread-6] Shutting down ExecutorService 'taskScheduler'
+2024-02-09 09:50:12,315 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-6] Shutting down ExecutorService 'applicationTaskExecutor'
+2024-02-09 09:50:12,440 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-6] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-09 09:50:12,456 INFO org.ehcache.core.EhcacheManager [Thread-6] Cache 'default-query-results-region' removed from EhcacheManager.
+2024-02-09 09:50:12,456 INFO org.ehcache.core.EhcacheManager [Thread-6] Cache 'default-update-timestamps-region' removed from EhcacheManager.
+2024-02-09 09:50:12,456 INFO com.zaxxer.hikari.HikariDataSource [Thread-6] SpringBootJPAHikariCP - Shutdown initiated...
+2024-02-09 09:50:12,456 DEBUG com.zaxxer.hikari.pool.HikariPool [Thread-6] SpringBootJPAHikariCP - Before shutdown stats (total=20, active=0, idle=20, waiting=0)
+2024-02-09 09:50:12,456 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@77b174b7: (connection evicted)
+2024-02-09 09:50:12,456 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@2fc621bb: (connection evicted)
+2024-02-09 09:50:12,456 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@2101ca33: (connection evicted)
+2024-02-09 09:50:12,456 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@253e4acb: (connection evicted)
+2024-02-09 09:50:12,456 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@603cc008: (connection evicted)
+2024-02-09 09:50:12,468 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@7e69fe4d: (connection evicted)
+2024-02-09 09:50:12,468 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@5116e3e1: (connection evicted)
+2024-02-09 09:50:12,468 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@6a9831a: (connection evicted)
+2024-02-09 09:50:12,468 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@133f47: (connection evicted)
+2024-02-09 09:50:12,468 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@3139229e: (connection evicted)
+2024-02-09 09:50:12,468 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@5756c6b3: (connection evicted)
+2024-02-09 09:50:12,468 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@1dad2e10: (connection evicted)
+2024-02-09 09:50:12,468 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@45dc3e5: (connection evicted)
+2024-02-09 09:50:12,468 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@7c883c22: (connection evicted)
+2024-02-09 09:50:12,468 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@1d0a1e5e: (connection evicted)
+2024-02-09 09:50:12,468 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@69a36e41: (connection evicted)
+2024-02-09 09:50:12,472 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@30bca7b: (connection evicted)
+2024-02-09 09:50:12,472 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@3edf9f14: (connection evicted)
+2024-02-09 09:50:12,472 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@736a8e7f: (connection evicted)
+2024-02-09 09:50:12,472 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@1c93735: (connection evicted)
+2024-02-09 09:50:12,472 DEBUG com.zaxxer.hikari.pool.HikariPool [Thread-6] SpringBootJPAHikariCP - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-02-09 09:50:12,472 INFO com.zaxxer.hikari.HikariDataSource [Thread-6] SpringBootJPAHikariCP - Shutdown completed.

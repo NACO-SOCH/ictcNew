@@ -1,0 +1,880 @@
+2024-02-02 14:45:07,215 INFO gov.naco.soch.ictc.IctcApplication [restartedMain] Starting IctcApplication on DESKTOP-N2FUUPQ with PID 22324 (D:\sochbackend\ictcNew\target\classes started by NACO in D:\sochbackend\ictcNew)
+2024-02-02 14:45:07,215 INFO gov.naco.soch.ictc.IctcApplication [restartedMain] The following profiles are active: @env@
+2024-02-02 14:45:07,278 INFO org.springframework.boot.devtools.restart.ChangeableUrls [restartedMain] The Class-Path manifest attribute in C:\Users\NACO\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2024-02-02 14:45:07,278 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-02 14:45:07,278 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-02 14:45:07,984 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-02 14:45:08,849 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 864ms. Found 455 JPA repository interfaces.
+2024-02-02 14:45:09,521 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-02 14:45:09,553 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-02 14:45:09,553 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-02 14:45:09,553 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4bad3245' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-02 14:45:09,553 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-02 14:45:09,569 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-02 14:45:10,055 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9050 (http)
+2024-02-02 14:45:10,055 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2024-02-02 14:45:10,055 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2024-02-02 14:45:10,152 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/ictcNew] [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-02-02 14:45:10,152 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 2874 ms
+2024-02-02 14:45:10,587 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-02 14:45:10,653 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.4.9.Final}
+2024-02-02 14:45:10,760 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-02-02 14:45:10,995 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-02-02 14:45:12,297 WARN org.hibernate.boot.internal.InFlightMetadataCollectorImpl [restartedMain] HHH000069: Duplicate generator name tiOstBeneficiary
+2024-02-02 14:45:12,563 WARN org.hibernate.orm.cache [restartedMain] HHH90001006: Missing cache[default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2024-02-02 14:45:12,642 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-update-timestamps-region' created in EhcacheManager.
+2024-02-02 14:45:12,642 WARN org.hibernate.orm.cache [restartedMain] HHH90001006: Missing cache[default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2024-02-02 14:45:12,642 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-query-results-region' created in EhcacheManager.
+2024-02-02 14:45:15,700 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-02-02 14:45:15,963 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02 14:45:17,394 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'majorListController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'majorListService': Unsatisfied dependency expressed through field 'dsrcDefaultFacilityLinkedFacilityRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dsrcDefaultFacilityLinkedFacilityRepository': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List gov.naco.soch.repository.DsrcDefaultFacilityLinkedFacilityRepository.findDataic1(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,org.springframework.data.domain.Pageable) but parameter 'Optional[searchParam]' not found in annotated query 'SELECT ib.id ,ben.uid, ib.pid, ben.first_name, ben.middle_name,ben.last_name,ben.gender_id, ben.age,ben.date_of_birth,ben.mobile_number
+    ,iv.visit_date,itr.tested_date,itr.report_received_date
+    ,ben.hiv_status_id AS hiv_status,ben.hiv_type_id AS hiv_type,itr.result_status,hs.name AS hiv_status_desc, itr.id  as result_id 
+    FROM soch.ictc_beneficiary ib
+    inner join soch.beneficiary ben ON ib.beneficiary_id = ben.id
+    left join soch.ictc_test_result itr ON ib.current_test_result_id = itr.id
+    left join soch.ictc_visit iv ON ib.recent_visit_id = iv.id
+    left join soch.master_hiv_status hs ON ben.hiv_status_id = hs.id
+    where ib.facility_id=:facilityId
+    and ib.beneficiary_status=:beneficiary_status 
+    and ben.category_id <>:categoryId 
+    and ben.is_active = true and lower (ben.benf_search_str) like lower(:searchparam)'!
+2024-02-02 14:45:17,394 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02 14:45:17,409 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-query-results-region' removed from EhcacheManager.
+2024-02-02 14:45:17,409 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-update-timestamps-region' removed from EhcacheManager.
+2024-02-02 14:45:17,425 INFO org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+2024-02-02 14:45:17,425 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-02-02 14:45:17,425 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'majorListController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'majorListService': Unsatisfied dependency expressed through field 'dsrcDefaultFacilityLinkedFacilityRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dsrcDefaultFacilityLinkedFacilityRepository': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List gov.naco.soch.repository.DsrcDefaultFacilityLinkedFacilityRepository.findDataic1(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,org.springframework.data.domain.Pageable) but parameter 'Optional[searchParam]' not found in annotated query 'SELECT ib.id ,ben.uid, ib.pid, ben.first_name, ben.middle_name,ben.last_name,ben.gender_id, ben.age,ben.date_of_birth,ben.mobile_number
+    ,iv.visit_date,itr.tested_date,itr.report_received_date
+    ,ben.hiv_status_id AS hiv_status,ben.hiv_type_id AS hiv_type,itr.result_status,hs.name AS hiv_status_desc, itr.id  as result_id 
+    FROM soch.ictc_beneficiary ib
+    inner join soch.beneficiary ben ON ib.beneficiary_id = ben.id
+    left join soch.ictc_test_result itr ON ib.current_test_result_id = itr.id
+    left join soch.ictc_visit iv ON ib.recent_visit_id = iv.id
+    left join soch.master_hiv_status hs ON ben.hiv_status_id = hs.id
+    where ib.facility_id=:facilityId
+    and ib.beneficiary_status=:beneficiary_status 
+    and ben.category_id <>:categoryId 
+    and ben.is_active = true and lower (ben.benf_search_str) like lower(:searchparam)'!
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at gov.naco.soch.ictc.IctcApplication.main(IctcApplication.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'majorListService': Unsatisfied dependency expressed through field 'dsrcDefaultFacilityLinkedFacilityRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dsrcDefaultFacilityLinkedFacilityRepository': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List gov.naco.soch.repository.DsrcDefaultFacilityLinkedFacilityRepository.findDataic1(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,org.springframework.data.domain.Pageable) but parameter 'Optional[searchParam]' not found in annotated query 'SELECT ib.id ,ben.uid, ib.pid, ben.first_name, ben.middle_name,ben.last_name,ben.gender_id, ben.age,ben.date_of_birth,ben.mobile_number
+    ,iv.visit_date,itr.tested_date,itr.report_received_date
+    ,ben.hiv_status_id AS hiv_status,ben.hiv_type_id AS hiv_type,itr.result_status,hs.name AS hiv_status_desc, itr.id  as result_id 
+    FROM soch.ictc_beneficiary ib
+    inner join soch.beneficiary ben ON ib.beneficiary_id = ben.id
+    left join soch.ictc_test_result itr ON ib.current_test_result_id = itr.id
+    left join soch.ictc_visit iv ON ib.recent_visit_id = iv.id
+    left join soch.master_hiv_status hs ON ben.hiv_status_id = hs.id
+    where ib.facility_id=:facilityId
+    and ib.beneficiary_status=:beneficiary_status 
+    and ben.category_id <>:categoryId 
+    and ben.is_active = true and lower (ben.benf_search_str) like lower(:searchparam)'!
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dsrcDefaultFacilityLinkedFacilityRepository': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List gov.naco.soch.repository.DsrcDefaultFacilityLinkedFacilityRepository.findDataic1(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,org.springframework.data.domain.Pageable) but parameter 'Optional[searchParam]' not found in annotated query 'SELECT ib.id ,ben.uid, ib.pid, ben.first_name, ben.middle_name,ben.last_name,ben.gender_id, ben.age,ben.date_of_birth,ben.mobile_number
+    ,iv.visit_date,itr.tested_date,itr.report_received_date
+    ,ben.hiv_status_id AS hiv_status,ben.hiv_type_id AS hiv_type,itr.result_status,hs.name AS hiv_status_desc, itr.id  as result_id 
+    FROM soch.ictc_beneficiary ib
+    inner join soch.beneficiary ben ON ib.beneficiary_id = ben.id
+    left join soch.ictc_test_result itr ON ib.current_test_result_id = itr.id
+    left join soch.ictc_visit iv ON ib.recent_visit_id = iv.id
+    left join soch.master_hiv_status hs ON ben.hiv_status_id = hs.id
+    where ib.facility_id=:facilityId
+    and ib.beneficiary_status=:beneficiary_status 
+    and ben.category_id <>:categoryId 
+    and ben.is_active = true and lower (ben.benf_search_str) like lower(:searchparam)'!
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 37 common frames omitted
+Caused by: java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List gov.naco.soch.repository.DsrcDefaultFacilityLinkedFacilityRepository.findDataic1(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,org.springframework.data.domain.Pageable) but parameter 'Optional[searchParam]' not found in annotated query 'SELECT ib.id ,ben.uid, ib.pid, ben.first_name, ben.middle_name,ben.last_name,ben.gender_id, ben.age,ben.date_of_birth,ben.mobile_number
+    ,iv.visit_date,itr.tested_date,itr.report_received_date
+    ,ben.hiv_status_id AS hiv_status,ben.hiv_type_id AS hiv_type,itr.result_status,hs.name AS hiv_status_desc, itr.id  as result_id 
+    FROM soch.ictc_beneficiary ib
+    inner join soch.beneficiary ben ON ib.beneficiary_id = ben.id
+    left join soch.ictc_test_result itr ON ib.current_test_result_id = itr.id
+    left join soch.ictc_visit iv ON ib.recent_visit_id = iv.id
+    left join soch.master_hiv_status hs ON ben.hiv_status_id = hs.id
+    where ib.facility_id=:facilityId
+    and ib.beneficiary_status=:beneficiary_status 
+    and ben.category_id <>:categoryId 
+    and ben.is_active = true and lower (ben.benf_search_str) like lower(:searchparam)'!
+	at org.springframework.data.jpa.repository.query.JpaQueryMethod.assertParameterNamesInAnnotatedQuery(JpaQueryMethod.java:156)
+	at org.springframework.data.jpa.repository.query.JpaQueryMethod.<init>(JpaQueryMethod.java:135)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:79)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lookupQuery(RepositoryFactorySupport.java:574)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(RepositoryFactorySupport.java:567)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1052)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.mapMethodsToQuery(RepositoryFactorySupport.java:569)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$new$0(RepositoryFactorySupport.java:559)
+	at java.base/java.util.Optional.map(Optional.java:265)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:559)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:332)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:297)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:212)
+	at org.springframework.data.util.Lazy.get(Lazy.java:94)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:300)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:121)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	... 47 common frames omitted
+2024-02-02 14:48:15,082 INFO gov.naco.soch.ictc.IctcApplication [restartedMain] Starting IctcApplication on DESKTOP-N2FUUPQ with PID 2088 (D:\sochbackend\ictcNew\target\classes started by NACO in D:\sochbackend\ictcNew)
+2024-02-02 14:48:15,082 INFO gov.naco.soch.ictc.IctcApplication [restartedMain] The following profiles are active: @env@
+2024-02-02 14:48:15,145 INFO org.springframework.boot.devtools.restart.ChangeableUrls [restartedMain] The Class-Path manifest attribute in C:\Users\NACO\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2024-02-02 14:48:15,145 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-02 14:48:15,145 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-02 14:48:15,894 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-02 14:48:16,769 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 876ms. Found 455 JPA repository interfaces.
+2024-02-02 14:48:17,700 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-02 14:48:17,763 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-02 14:48:17,778 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-02 14:48:17,778 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7f896565' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-02 14:48:17,778 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-02 14:48:17,794 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-02 14:48:18,654 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9050 (http)
+2024-02-02 14:48:18,670 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2024-02-02 14:48:18,670 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2024-02-02 14:48:18,888 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/ictcNew] [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-02-02 14:48:18,888 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 3743 ms
+2024-02-02 14:48:19,638 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-02 14:48:19,748 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.4.9.Final}
+2024-02-02 14:48:19,935 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-02-02 14:48:20,217 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-02-02 14:48:21,654 WARN org.hibernate.boot.internal.InFlightMetadataCollectorImpl [restartedMain] HHH000069: Duplicate generator name tiOstBeneficiary
+2024-02-02 14:48:22,029 WARN org.hibernate.orm.cache [restartedMain] HHH90001006: Missing cache[default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2024-02-02 14:48:22,138 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-update-timestamps-region' created in EhcacheManager.
+2024-02-02 14:48:22,138 WARN org.hibernate.orm.cache [restartedMain] HHH90001006: Missing cache[default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2024-02-02 14:48:22,138 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-query-results-region' created in EhcacheManager.
+2024-02-02 14:48:26,400 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-02-02 14:48:26,791 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02 14:48:28,509 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'majorListController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'majorListService': Unsatisfied dependency expressed through field 'dsrcDefaultFacilityLinkedFacilityRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dsrcDefaultFacilityLinkedFacilityRepository': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List gov.naco.soch.repository.DsrcDefaultFacilityLinkedFacilityRepository.findDataic1(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,org.springframework.data.domain.Pageable) but parameter 'Optional[searchParam]' not found in annotated query 'SELECT ib.id ,ben.uid, ib.pid, ben.first_name, ben.middle_name,ben.last_name,ben.gender_id, ben.age,ben.date_of_birth,ben.mobile_number
+    ,iv.visit_date,itr.tested_date,itr.report_received_date
+    ,ben.hiv_status_id AS hiv_status,ben.hiv_type_id AS hiv_type,itr.result_status,hs.name AS hiv_status_desc, itr.id  as result_id 
+    FROM soch.ictc_beneficiary ib
+    inner join soch.beneficiary ben ON ib.beneficiary_id = ben.id
+    left join soch.ictc_test_result itr ON ib.current_test_result_id = itr.id
+    left join soch.ictc_visit iv ON ib.recent_visit_id = iv.id
+    left join soch.master_hiv_status hs ON ben.hiv_status_id = hs.id
+    where ib.facility_id=:facilityId
+    and ib.beneficiary_status=:beneficiary_status 
+    and ben.category_id <>:categoryId 
+    and ben.is_active = true and lower (ben.benf_search_str) like lower(:searchparam)'!
+2024-02-02 14:48:28,509 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02 14:48:28,509 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-query-results-region' removed from EhcacheManager.
+2024-02-02 14:48:28,509 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-update-timestamps-region' removed from EhcacheManager.
+2024-02-02 14:48:28,525 INFO org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+2024-02-02 14:48:28,525 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-02-02 14:48:28,540 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'majorListController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'majorListService': Unsatisfied dependency expressed through field 'dsrcDefaultFacilityLinkedFacilityRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dsrcDefaultFacilityLinkedFacilityRepository': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List gov.naco.soch.repository.DsrcDefaultFacilityLinkedFacilityRepository.findDataic1(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,org.springframework.data.domain.Pageable) but parameter 'Optional[searchParam]' not found in annotated query 'SELECT ib.id ,ben.uid, ib.pid, ben.first_name, ben.middle_name,ben.last_name,ben.gender_id, ben.age,ben.date_of_birth,ben.mobile_number
+    ,iv.visit_date,itr.tested_date,itr.report_received_date
+    ,ben.hiv_status_id AS hiv_status,ben.hiv_type_id AS hiv_type,itr.result_status,hs.name AS hiv_status_desc, itr.id  as result_id 
+    FROM soch.ictc_beneficiary ib
+    inner join soch.beneficiary ben ON ib.beneficiary_id = ben.id
+    left join soch.ictc_test_result itr ON ib.current_test_result_id = itr.id
+    left join soch.ictc_visit iv ON ib.recent_visit_id = iv.id
+    left join soch.master_hiv_status hs ON ben.hiv_status_id = hs.id
+    where ib.facility_id=:facilityId
+    and ib.beneficiary_status=:beneficiary_status 
+    and ben.category_id <>:categoryId 
+    and ben.is_active = true and lower (ben.benf_search_str) like lower(:searchparam)'!
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at gov.naco.soch.ictc.IctcApplication.main(IctcApplication.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'majorListService': Unsatisfied dependency expressed through field 'dsrcDefaultFacilityLinkedFacilityRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dsrcDefaultFacilityLinkedFacilityRepository': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List gov.naco.soch.repository.DsrcDefaultFacilityLinkedFacilityRepository.findDataic1(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,org.springframework.data.domain.Pageable) but parameter 'Optional[searchParam]' not found in annotated query 'SELECT ib.id ,ben.uid, ib.pid, ben.first_name, ben.middle_name,ben.last_name,ben.gender_id, ben.age,ben.date_of_birth,ben.mobile_number
+    ,iv.visit_date,itr.tested_date,itr.report_received_date
+    ,ben.hiv_status_id AS hiv_status,ben.hiv_type_id AS hiv_type,itr.result_status,hs.name AS hiv_status_desc, itr.id  as result_id 
+    FROM soch.ictc_beneficiary ib
+    inner join soch.beneficiary ben ON ib.beneficiary_id = ben.id
+    left join soch.ictc_test_result itr ON ib.current_test_result_id = itr.id
+    left join soch.ictc_visit iv ON ib.recent_visit_id = iv.id
+    left join soch.master_hiv_status hs ON ben.hiv_status_id = hs.id
+    where ib.facility_id=:facilityId
+    and ib.beneficiary_status=:beneficiary_status 
+    and ben.category_id <>:categoryId 
+    and ben.is_active = true and lower (ben.benf_search_str) like lower(:searchparam)'!
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dsrcDefaultFacilityLinkedFacilityRepository': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List gov.naco.soch.repository.DsrcDefaultFacilityLinkedFacilityRepository.findDataic1(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,org.springframework.data.domain.Pageable) but parameter 'Optional[searchParam]' not found in annotated query 'SELECT ib.id ,ben.uid, ib.pid, ben.first_name, ben.middle_name,ben.last_name,ben.gender_id, ben.age,ben.date_of_birth,ben.mobile_number
+    ,iv.visit_date,itr.tested_date,itr.report_received_date
+    ,ben.hiv_status_id AS hiv_status,ben.hiv_type_id AS hiv_type,itr.result_status,hs.name AS hiv_status_desc, itr.id  as result_id 
+    FROM soch.ictc_beneficiary ib
+    inner join soch.beneficiary ben ON ib.beneficiary_id = ben.id
+    left join soch.ictc_test_result itr ON ib.current_test_result_id = itr.id
+    left join soch.ictc_visit iv ON ib.recent_visit_id = iv.id
+    left join soch.master_hiv_status hs ON ben.hiv_status_id = hs.id
+    where ib.facility_id=:facilityId
+    and ib.beneficiary_status=:beneficiary_status 
+    and ben.category_id <>:categoryId 
+    and ben.is_active = true and lower (ben.benf_search_str) like lower(:searchparam)'!
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 37 common frames omitted
+Caused by: java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List gov.naco.soch.repository.DsrcDefaultFacilityLinkedFacilityRepository.findDataic1(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,org.springframework.data.domain.Pageable) but parameter 'Optional[searchParam]' not found in annotated query 'SELECT ib.id ,ben.uid, ib.pid, ben.first_name, ben.middle_name,ben.last_name,ben.gender_id, ben.age,ben.date_of_birth,ben.mobile_number
+    ,iv.visit_date,itr.tested_date,itr.report_received_date
+    ,ben.hiv_status_id AS hiv_status,ben.hiv_type_id AS hiv_type,itr.result_status,hs.name AS hiv_status_desc, itr.id  as result_id 
+    FROM soch.ictc_beneficiary ib
+    inner join soch.beneficiary ben ON ib.beneficiary_id = ben.id
+    left join soch.ictc_test_result itr ON ib.current_test_result_id = itr.id
+    left join soch.ictc_visit iv ON ib.recent_visit_id = iv.id
+    left join soch.master_hiv_status hs ON ben.hiv_status_id = hs.id
+    where ib.facility_id=:facilityId
+    and ib.beneficiary_status=:beneficiary_status 
+    and ben.category_id <>:categoryId 
+    and ben.is_active = true and lower (ben.benf_search_str) like lower(:searchparam)'!
+	at org.springframework.data.jpa.repository.query.JpaQueryMethod.assertParameterNamesInAnnotatedQuery(JpaQueryMethod.java:156)
+	at org.springframework.data.jpa.repository.query.JpaQueryMethod.<init>(JpaQueryMethod.java:135)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:79)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lookupQuery(RepositoryFactorySupport.java:574)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(RepositoryFactorySupport.java:567)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1052)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.mapMethodsToQuery(RepositoryFactorySupport.java:569)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$new$0(RepositoryFactorySupport.java:559)
+	at java.base/java.util.Optional.map(Optional.java:265)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:559)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:332)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:297)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:212)
+	at org.springframework.data.util.Lazy.get(Lazy.java:94)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:300)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:121)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	... 47 common frames omitted
+2024-02-02 14:50:27,825 INFO gov.naco.soch.ictc.IctcApplication [restartedMain] Starting IctcApplication on DESKTOP-N2FUUPQ with PID 20200 (D:\sochbackend\ictcNew\target\classes started by NACO in D:\sochbackend\ictcNew)
+2024-02-02 14:50:27,825 INFO gov.naco.soch.ictc.IctcApplication [restartedMain] The following profiles are active: @env@
+2024-02-02 14:50:27,871 INFO org.springframework.boot.devtools.restart.ChangeableUrls [restartedMain] The Class-Path manifest attribute in C:\Users\NACO\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2024-02-02 14:50:27,871 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-02 14:50:27,871 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-02 14:50:28,606 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-02 14:50:29,543 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 938ms. Found 455 JPA repository interfaces.
+2024-02-02 14:50:30,308 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-02 14:50:30,355 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-02 14:50:30,371 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-02 14:50:30,371 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6348d61b' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-02 14:50:30,371 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-02 14:50:30,387 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-02 14:50:30,902 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9050 (http)
+2024-02-02 14:50:30,902 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2024-02-02 14:50:30,902 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2024-02-02 14:50:30,996 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/ictcNew] [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-02-02 14:50:30,996 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 3125 ms
+2024-02-02 14:50:31,418 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-02 14:50:31,480 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.4.9.Final}
+2024-02-02 14:50:31,589 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-02-02 14:50:31,792 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-02-02 14:50:33,120 WARN org.hibernate.boot.internal.InFlightMetadataCollectorImpl [restartedMain] HHH000069: Duplicate generator name tiOstBeneficiary
+2024-02-02 14:50:33,401 WARN org.hibernate.orm.cache [restartedMain] HHH90001006: Missing cache[default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2024-02-02 14:50:33,480 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-update-timestamps-region' created in EhcacheManager.
+2024-02-02 14:50:33,480 WARN org.hibernate.orm.cache [restartedMain] HHH90001006: Missing cache[default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2024-02-02 14:50:33,480 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-query-results-region' created in EhcacheManager.
+2024-02-02 14:50:36,667 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-02-02 14:50:36,948 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02 14:50:38,464 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'majorListController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'majorListService': Unsatisfied dependency expressed through field 'dsrcDefaultFacilityLinkedFacilityRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dsrcDefaultFacilityLinkedFacilityRepository': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List gov.naco.soch.repository.DsrcDefaultFacilityLinkedFacilityRepository.findDataic1(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,org.springframework.data.domain.Pageable) but parameter 'Optional[searchParam]' not found in annotated query 'SELECT ib.id ,ben.uid, ib.pid, ben.first_name, ben.middle_name,ben.last_name,ben.gender_id, ben.age,ben.date_of_birth,ben.mobile_number
+    ,iv.visit_date,itr.tested_date,itr.report_received_date
+    ,ben.hiv_status_id AS hiv_status,ben.hiv_type_id AS hiv_type,itr.result_status,hs.name AS hiv_status_desc, itr.id  as result_id 
+    FROM soch.ictc_beneficiary ib
+    inner join soch.beneficiary ben ON ib.beneficiary_id = ben.id
+    left join soch.ictc_test_result itr ON ib.current_test_result_id = itr.id
+    left join soch.ictc_visit iv ON ib.recent_visit_id = iv.id
+    left join soch.master_hiv_status hs ON ben.hiv_status_id = hs.id
+    where ib.facility_id=:facilityId
+    and ib.beneficiary_status=:beneficiary_status 
+    and ben.category_id <>:categoryId 
+    and ben.is_active = true and lower (ben.benf_search_str) like lower(:searchparam)'!
+2024-02-02 14:50:38,464 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02 14:50:38,464 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-query-results-region' removed from EhcacheManager.
+2024-02-02 14:50:38,479 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-update-timestamps-region' removed from EhcacheManager.
+2024-02-02 14:50:38,495 INFO org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+2024-02-02 14:50:38,495 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-02-02 14:50:38,510 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'majorListController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'majorListService': Unsatisfied dependency expressed through field 'dsrcDefaultFacilityLinkedFacilityRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dsrcDefaultFacilityLinkedFacilityRepository': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List gov.naco.soch.repository.DsrcDefaultFacilityLinkedFacilityRepository.findDataic1(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,org.springframework.data.domain.Pageable) but parameter 'Optional[searchParam]' not found in annotated query 'SELECT ib.id ,ben.uid, ib.pid, ben.first_name, ben.middle_name,ben.last_name,ben.gender_id, ben.age,ben.date_of_birth,ben.mobile_number
+    ,iv.visit_date,itr.tested_date,itr.report_received_date
+    ,ben.hiv_status_id AS hiv_status,ben.hiv_type_id AS hiv_type,itr.result_status,hs.name AS hiv_status_desc, itr.id  as result_id 
+    FROM soch.ictc_beneficiary ib
+    inner join soch.beneficiary ben ON ib.beneficiary_id = ben.id
+    left join soch.ictc_test_result itr ON ib.current_test_result_id = itr.id
+    left join soch.ictc_visit iv ON ib.recent_visit_id = iv.id
+    left join soch.master_hiv_status hs ON ben.hiv_status_id = hs.id
+    where ib.facility_id=:facilityId
+    and ib.beneficiary_status=:beneficiary_status 
+    and ben.category_id <>:categoryId 
+    and ben.is_active = true and lower (ben.benf_search_str) like lower(:searchparam)'!
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at gov.naco.soch.ictc.IctcApplication.main(IctcApplication.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'majorListService': Unsatisfied dependency expressed through field 'dsrcDefaultFacilityLinkedFacilityRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dsrcDefaultFacilityLinkedFacilityRepository': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List gov.naco.soch.repository.DsrcDefaultFacilityLinkedFacilityRepository.findDataic1(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,org.springframework.data.domain.Pageable) but parameter 'Optional[searchParam]' not found in annotated query 'SELECT ib.id ,ben.uid, ib.pid, ben.first_name, ben.middle_name,ben.last_name,ben.gender_id, ben.age,ben.date_of_birth,ben.mobile_number
+    ,iv.visit_date,itr.tested_date,itr.report_received_date
+    ,ben.hiv_status_id AS hiv_status,ben.hiv_type_id AS hiv_type,itr.result_status,hs.name AS hiv_status_desc, itr.id  as result_id 
+    FROM soch.ictc_beneficiary ib
+    inner join soch.beneficiary ben ON ib.beneficiary_id = ben.id
+    left join soch.ictc_test_result itr ON ib.current_test_result_id = itr.id
+    left join soch.ictc_visit iv ON ib.recent_visit_id = iv.id
+    left join soch.master_hiv_status hs ON ben.hiv_status_id = hs.id
+    where ib.facility_id=:facilityId
+    and ib.beneficiary_status=:beneficiary_status 
+    and ben.category_id <>:categoryId 
+    and ben.is_active = true and lower (ben.benf_search_str) like lower(:searchparam)'!
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dsrcDefaultFacilityLinkedFacilityRepository': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List gov.naco.soch.repository.DsrcDefaultFacilityLinkedFacilityRepository.findDataic1(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,org.springframework.data.domain.Pageable) but parameter 'Optional[searchParam]' not found in annotated query 'SELECT ib.id ,ben.uid, ib.pid, ben.first_name, ben.middle_name,ben.last_name,ben.gender_id, ben.age,ben.date_of_birth,ben.mobile_number
+    ,iv.visit_date,itr.tested_date,itr.report_received_date
+    ,ben.hiv_status_id AS hiv_status,ben.hiv_type_id AS hiv_type,itr.result_status,hs.name AS hiv_status_desc, itr.id  as result_id 
+    FROM soch.ictc_beneficiary ib
+    inner join soch.beneficiary ben ON ib.beneficiary_id = ben.id
+    left join soch.ictc_test_result itr ON ib.current_test_result_id = itr.id
+    left join soch.ictc_visit iv ON ib.recent_visit_id = iv.id
+    left join soch.master_hiv_status hs ON ben.hiv_status_id = hs.id
+    where ib.facility_id=:facilityId
+    and ib.beneficiary_status=:beneficiary_status 
+    and ben.category_id <>:categoryId 
+    and ben.is_active = true and lower (ben.benf_search_str) like lower(:searchparam)'!
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 37 common frames omitted
+Caused by: java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List gov.naco.soch.repository.DsrcDefaultFacilityLinkedFacilityRepository.findDataic1(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,org.springframework.data.domain.Pageable) but parameter 'Optional[searchParam]' not found in annotated query 'SELECT ib.id ,ben.uid, ib.pid, ben.first_name, ben.middle_name,ben.last_name,ben.gender_id, ben.age,ben.date_of_birth,ben.mobile_number
+    ,iv.visit_date,itr.tested_date,itr.report_received_date
+    ,ben.hiv_status_id AS hiv_status,ben.hiv_type_id AS hiv_type,itr.result_status,hs.name AS hiv_status_desc, itr.id  as result_id 
+    FROM soch.ictc_beneficiary ib
+    inner join soch.beneficiary ben ON ib.beneficiary_id = ben.id
+    left join soch.ictc_test_result itr ON ib.current_test_result_id = itr.id
+    left join soch.ictc_visit iv ON ib.recent_visit_id = iv.id
+    left join soch.master_hiv_status hs ON ben.hiv_status_id = hs.id
+    where ib.facility_id=:facilityId
+    and ib.beneficiary_status=:beneficiary_status 
+    and ben.category_id <>:categoryId 
+    and ben.is_active = true and lower (ben.benf_search_str) like lower(:searchparam)'!
+	at org.springframework.data.jpa.repository.query.JpaQueryMethod.assertParameterNamesInAnnotatedQuery(JpaQueryMethod.java:156)
+	at org.springframework.data.jpa.repository.query.JpaQueryMethod.<init>(JpaQueryMethod.java:135)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:79)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lookupQuery(RepositoryFactorySupport.java:574)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(RepositoryFactorySupport.java:567)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1052)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.mapMethodsToQuery(RepositoryFactorySupport.java:569)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$new$0(RepositoryFactorySupport.java:559)
+	at java.base/java.util.Optional.map(Optional.java:265)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:559)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:332)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:297)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:212)
+	at org.springframework.data.util.Lazy.get(Lazy.java:94)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:300)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:121)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	... 47 common frames omitted
+2024-02-02 14:51:58,875 INFO gov.naco.soch.ictc.IctcApplication [restartedMain] Starting IctcApplication on DESKTOP-N2FUUPQ with PID 14152 (D:\sochbackend\ictcNew\target\classes started by NACO in D:\sochbackend\ictcNew)
+2024-02-02 14:51:58,875 INFO gov.naco.soch.ictc.IctcApplication [restartedMain] The following profiles are active: @env@
+2024-02-02 14:51:58,922 INFO org.springframework.boot.devtools.restart.ChangeableUrls [restartedMain] The Class-Path manifest attribute in C:\Users\NACO\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2024-02-02 14:51:58,922 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-02 14:51:58,922 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-02 14:51:59,641 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-02 14:52:00,532 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 884ms. Found 455 JPA repository interfaces.
+2024-02-02 14:52:01,298 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-02 14:52:01,329 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-02 14:52:01,344 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-02 14:52:01,344 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3517d6d5' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-02 14:52:01,344 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-02 14:52:01,344 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-02 14:52:01,877 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9050 (http)
+2024-02-02 14:52:01,877 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2024-02-02 14:52:01,877 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2024-02-02 14:52:01,971 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/ictcNew] [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-02-02 14:52:01,971 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 3049 ms
+2024-02-02 14:52:02,440 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-02 14:52:02,518 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.4.9.Final}
+2024-02-02 14:52:02,627 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-02-02 14:52:02,830 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-02-02 14:52:04,096 WARN org.hibernate.boot.internal.InFlightMetadataCollectorImpl [restartedMain] HHH000069: Duplicate generator name tiOstBeneficiary
+2024-02-02 14:52:04,377 WARN org.hibernate.orm.cache [restartedMain] HHH90001006: Missing cache[default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2024-02-02 14:52:04,439 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-update-timestamps-region' created in EhcacheManager.
+2024-02-02 14:52:04,455 WARN org.hibernate.orm.cache [restartedMain] HHH90001006: Missing cache[default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2024-02-02 14:52:04,455 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-query-results-region' created in EhcacheManager.
+2024-02-02 14:52:07,673 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-02-02 14:52:07,923 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02 14:52:09,391 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'majorListController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'majorListService': Unsatisfied dependency expressed through field 'dsrcDefaultFacilityLinkedFacilityRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dsrcDefaultFacilityLinkedFacilityRepository': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List gov.naco.soch.repository.DsrcDefaultFacilityLinkedFacilityRepository.findDataic1(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,org.springframework.data.domain.Pageable) but parameter 'Optional[searchParam]' not found in annotated query 'SELECT ib.id ,ben.uid, ib.pid, ben.first_name, ben.middle_name,ben.last_name,ben.gender_id, ben.age,ben.date_of_birth,ben.mobile_number
+    ,iv.visit_date,itr.tested_date,itr.report_received_date
+    ,ben.hiv_status_id AS hiv_status,ben.hiv_type_id AS hiv_type,itr.result_status,hs.name AS hiv_status_desc, itr.id  as result_id 
+    FROM soch.ictc_beneficiary ib
+    inner join soch.beneficiary ben ON ib.beneficiary_id = ben.id
+    left join soch.ictc_test_result itr ON ib.current_test_result_id = itr.id
+    left join soch.ictc_visit iv ON ib.recent_visit_id = iv.id
+    left join soch.master_hiv_status hs ON ben.hiv_status_id = hs.id
+    where ib.facility_id=:facilityId
+    and ib.beneficiary_status=:beneficiary_status 
+    and ben.category_id <>:categoryId 
+    and ben.is_active = true and lower (ben.benf_search_str) like lower(:searchparam)'!
+2024-02-02 14:52:09,391 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02 14:52:09,391 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-query-results-region' removed from EhcacheManager.
+2024-02-02 14:52:09,391 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-update-timestamps-region' removed from EhcacheManager.
+2024-02-02 14:52:09,407 INFO org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+2024-02-02 14:52:09,422 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-02-02 14:52:09,422 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'majorListController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'majorListService': Unsatisfied dependency expressed through field 'dsrcDefaultFacilityLinkedFacilityRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dsrcDefaultFacilityLinkedFacilityRepository': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List gov.naco.soch.repository.DsrcDefaultFacilityLinkedFacilityRepository.findDataic1(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,org.springframework.data.domain.Pageable) but parameter 'Optional[searchParam]' not found in annotated query 'SELECT ib.id ,ben.uid, ib.pid, ben.first_name, ben.middle_name,ben.last_name,ben.gender_id, ben.age,ben.date_of_birth,ben.mobile_number
+    ,iv.visit_date,itr.tested_date,itr.report_received_date
+    ,ben.hiv_status_id AS hiv_status,ben.hiv_type_id AS hiv_type,itr.result_status,hs.name AS hiv_status_desc, itr.id  as result_id 
+    FROM soch.ictc_beneficiary ib
+    inner join soch.beneficiary ben ON ib.beneficiary_id = ben.id
+    left join soch.ictc_test_result itr ON ib.current_test_result_id = itr.id
+    left join soch.ictc_visit iv ON ib.recent_visit_id = iv.id
+    left join soch.master_hiv_status hs ON ben.hiv_status_id = hs.id
+    where ib.facility_id=:facilityId
+    and ib.beneficiary_status=:beneficiary_status 
+    and ben.category_id <>:categoryId 
+    and ben.is_active = true and lower (ben.benf_search_str) like lower(:searchparam)'!
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at gov.naco.soch.ictc.IctcApplication.main(IctcApplication.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'majorListService': Unsatisfied dependency expressed through field 'dsrcDefaultFacilityLinkedFacilityRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dsrcDefaultFacilityLinkedFacilityRepository': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List gov.naco.soch.repository.DsrcDefaultFacilityLinkedFacilityRepository.findDataic1(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,org.springframework.data.domain.Pageable) but parameter 'Optional[searchParam]' not found in annotated query 'SELECT ib.id ,ben.uid, ib.pid, ben.first_name, ben.middle_name,ben.last_name,ben.gender_id, ben.age,ben.date_of_birth,ben.mobile_number
+    ,iv.visit_date,itr.tested_date,itr.report_received_date
+    ,ben.hiv_status_id AS hiv_status,ben.hiv_type_id AS hiv_type,itr.result_status,hs.name AS hiv_status_desc, itr.id  as result_id 
+    FROM soch.ictc_beneficiary ib
+    inner join soch.beneficiary ben ON ib.beneficiary_id = ben.id
+    left join soch.ictc_test_result itr ON ib.current_test_result_id = itr.id
+    left join soch.ictc_visit iv ON ib.recent_visit_id = iv.id
+    left join soch.master_hiv_status hs ON ben.hiv_status_id = hs.id
+    where ib.facility_id=:facilityId
+    and ib.beneficiary_status=:beneficiary_status 
+    and ben.category_id <>:categoryId 
+    and ben.is_active = true and lower (ben.benf_search_str) like lower(:searchparam)'!
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dsrcDefaultFacilityLinkedFacilityRepository': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List gov.naco.soch.repository.DsrcDefaultFacilityLinkedFacilityRepository.findDataic1(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,org.springframework.data.domain.Pageable) but parameter 'Optional[searchParam]' not found in annotated query 'SELECT ib.id ,ben.uid, ib.pid, ben.first_name, ben.middle_name,ben.last_name,ben.gender_id, ben.age,ben.date_of_birth,ben.mobile_number
+    ,iv.visit_date,itr.tested_date,itr.report_received_date
+    ,ben.hiv_status_id AS hiv_status,ben.hiv_type_id AS hiv_type,itr.result_status,hs.name AS hiv_status_desc, itr.id  as result_id 
+    FROM soch.ictc_beneficiary ib
+    inner join soch.beneficiary ben ON ib.beneficiary_id = ben.id
+    left join soch.ictc_test_result itr ON ib.current_test_result_id = itr.id
+    left join soch.ictc_visit iv ON ib.recent_visit_id = iv.id
+    left join soch.master_hiv_status hs ON ben.hiv_status_id = hs.id
+    where ib.facility_id=:facilityId
+    and ib.beneficiary_status=:beneficiary_status 
+    and ben.category_id <>:categoryId 
+    and ben.is_active = true and lower (ben.benf_search_str) like lower(:searchparam)'!
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 37 common frames omitted
+Caused by: java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List gov.naco.soch.repository.DsrcDefaultFacilityLinkedFacilityRepository.findDataic1(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,org.springframework.data.domain.Pageable) but parameter 'Optional[searchParam]' not found in annotated query 'SELECT ib.id ,ben.uid, ib.pid, ben.first_name, ben.middle_name,ben.last_name,ben.gender_id, ben.age,ben.date_of_birth,ben.mobile_number
+    ,iv.visit_date,itr.tested_date,itr.report_received_date
+    ,ben.hiv_status_id AS hiv_status,ben.hiv_type_id AS hiv_type,itr.result_status,hs.name AS hiv_status_desc, itr.id  as result_id 
+    FROM soch.ictc_beneficiary ib
+    inner join soch.beneficiary ben ON ib.beneficiary_id = ben.id
+    left join soch.ictc_test_result itr ON ib.current_test_result_id = itr.id
+    left join soch.ictc_visit iv ON ib.recent_visit_id = iv.id
+    left join soch.master_hiv_status hs ON ben.hiv_status_id = hs.id
+    where ib.facility_id=:facilityId
+    and ib.beneficiary_status=:beneficiary_status 
+    and ben.category_id <>:categoryId 
+    and ben.is_active = true and lower (ben.benf_search_str) like lower(:searchparam)'!
+	at org.springframework.data.jpa.repository.query.JpaQueryMethod.assertParameterNamesInAnnotatedQuery(JpaQueryMethod.java:156)
+	at org.springframework.data.jpa.repository.query.JpaQueryMethod.<init>(JpaQueryMethod.java:135)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:79)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lookupQuery(RepositoryFactorySupport.java:574)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(RepositoryFactorySupport.java:567)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1052)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.mapMethodsToQuery(RepositoryFactorySupport.java:569)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$new$0(RepositoryFactorySupport.java:559)
+	at java.base/java.util.Optional.map(Optional.java:265)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:559)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:332)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:297)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:212)
+	at org.springframework.data.util.Lazy.get(Lazy.java:94)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:300)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:121)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	... 47 common frames omitted
+2024-02-02 14:52:16,161 INFO gov.naco.soch.ictc.IctcApplication [restartedMain] Starting IctcApplication on DESKTOP-N2FUUPQ with PID 12740 (D:\sochbackend\ictcNew\target\classes started by NACO in D:\sochbackend\ictcNew)
+2024-02-02 14:52:16,177 INFO gov.naco.soch.ictc.IctcApplication [restartedMain] The following profiles are active: @env@
+2024-02-02 14:52:16,224 INFO org.springframework.boot.devtools.restart.ChangeableUrls [restartedMain] The Class-Path manifest attribute in C:\Users\NACO\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2024-02-02 14:52:16,224 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-02 14:52:16,224 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-02 14:52:16,942 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-02 14:52:17,817 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 868ms. Found 455 JPA repository interfaces.
+2024-02-02 14:52:18,536 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-02 14:52:18,567 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-02 14:52:18,582 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-02 14:52:18,582 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@41554d0c' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-02 14:52:18,582 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-02 14:52:18,582 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-02 14:52:19,098 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9050 (http)
+2024-02-02 14:52:19,114 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2024-02-02 14:52:19,114 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2024-02-02 14:52:19,207 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/ictcNew] [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-02-02 14:52:19,207 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 2983 ms
+2024-02-02 14:52:19,676 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-02 14:52:19,739 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.4.9.Final}
+2024-02-02 14:52:19,848 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-02-02 14:52:20,082 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-02-02 14:52:21,693 WARN org.hibernate.boot.internal.InFlightMetadataCollectorImpl [restartedMain] HHH000069: Duplicate generator name tiOstBeneficiary
+2024-02-02 14:52:21,958 WARN org.hibernate.orm.cache [restartedMain] HHH90001006: Missing cache[default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2024-02-02 14:52:22,036 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-update-timestamps-region' created in EhcacheManager.
+2024-02-02 14:52:22,036 WARN org.hibernate.orm.cache [restartedMain] HHH90001006: Missing cache[default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2024-02-02 14:52:22,036 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-query-results-region' created in EhcacheManager.
+2024-02-02 14:52:25,129 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-02-02 14:52:25,379 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02 14:52:26,957 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'majorListController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'majorListService': Unsatisfied dependency expressed through field 'dsrcDefaultFacilityLinkedFacilityRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dsrcDefaultFacilityLinkedFacilityRepository': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List gov.naco.soch.repository.DsrcDefaultFacilityLinkedFacilityRepository.findDataic1(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,org.springframework.data.domain.Pageable) but parameter 'Optional[searchParam]' not found in annotated query 'SELECT ib.id ,ben.uid, ib.pid, ben.first_name, ben.middle_name,ben.last_name,ben.gender_id, ben.age,ben.date_of_birth,ben.mobile_number
+    ,iv.visit_date,itr.tested_date,itr.report_received_date
+    ,ben.hiv_status_id AS hiv_status,ben.hiv_type_id AS hiv_type,itr.result_status,hs.name AS hiv_status_desc, itr.id  as result_id 
+    FROM soch.ictc_beneficiary ib
+    inner join soch.beneficiary ben ON ib.beneficiary_id = ben.id
+    left join soch.ictc_test_result itr ON ib.current_test_result_id = itr.id
+    left join soch.ictc_visit iv ON ib.recent_visit_id = iv.id
+    left join soch.master_hiv_status hs ON ben.hiv_status_id = hs.id
+    where ib.facility_id=:facilityId
+    and ib.beneficiary_status=:beneficiary_status 
+    and ben.category_id <>:categoryId 
+    and ben.is_active = true and lower (ben.benf_search_str) like lower(:searchparam)'!
+2024-02-02 14:52:26,957 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02 14:52:26,957 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-query-results-region' removed from EhcacheManager.
+2024-02-02 14:52:26,957 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-update-timestamps-region' removed from EhcacheManager.
+2024-02-02 14:52:26,973 INFO org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+2024-02-02 14:52:26,989 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-02-02 14:52:26,989 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'majorListController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'majorListService': Unsatisfied dependency expressed through field 'dsrcDefaultFacilityLinkedFacilityRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dsrcDefaultFacilityLinkedFacilityRepository': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List gov.naco.soch.repository.DsrcDefaultFacilityLinkedFacilityRepository.findDataic1(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,org.springframework.data.domain.Pageable) but parameter 'Optional[searchParam]' not found in annotated query 'SELECT ib.id ,ben.uid, ib.pid, ben.first_name, ben.middle_name,ben.last_name,ben.gender_id, ben.age,ben.date_of_birth,ben.mobile_number
+    ,iv.visit_date,itr.tested_date,itr.report_received_date
+    ,ben.hiv_status_id AS hiv_status,ben.hiv_type_id AS hiv_type,itr.result_status,hs.name AS hiv_status_desc, itr.id  as result_id 
+    FROM soch.ictc_beneficiary ib
+    inner join soch.beneficiary ben ON ib.beneficiary_id = ben.id
+    left join soch.ictc_test_result itr ON ib.current_test_result_id = itr.id
+    left join soch.ictc_visit iv ON ib.recent_visit_id = iv.id
+    left join soch.master_hiv_status hs ON ben.hiv_status_id = hs.id
+    where ib.facility_id=:facilityId
+    and ib.beneficiary_status=:beneficiary_status 
+    and ben.category_id <>:categoryId 
+    and ben.is_active = true and lower (ben.benf_search_str) like lower(:searchparam)'!
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at gov.naco.soch.ictc.IctcApplication.main(IctcApplication.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'majorListService': Unsatisfied dependency expressed through field 'dsrcDefaultFacilityLinkedFacilityRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dsrcDefaultFacilityLinkedFacilityRepository': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List gov.naco.soch.repository.DsrcDefaultFacilityLinkedFacilityRepository.findDataic1(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,org.springframework.data.domain.Pageable) but parameter 'Optional[searchParam]' not found in annotated query 'SELECT ib.id ,ben.uid, ib.pid, ben.first_name, ben.middle_name,ben.last_name,ben.gender_id, ben.age,ben.date_of_birth,ben.mobile_number
+    ,iv.visit_date,itr.tested_date,itr.report_received_date
+    ,ben.hiv_status_id AS hiv_status,ben.hiv_type_id AS hiv_type,itr.result_status,hs.name AS hiv_status_desc, itr.id  as result_id 
+    FROM soch.ictc_beneficiary ib
+    inner join soch.beneficiary ben ON ib.beneficiary_id = ben.id
+    left join soch.ictc_test_result itr ON ib.current_test_result_id = itr.id
+    left join soch.ictc_visit iv ON ib.recent_visit_id = iv.id
+    left join soch.master_hiv_status hs ON ben.hiv_status_id = hs.id
+    where ib.facility_id=:facilityId
+    and ib.beneficiary_status=:beneficiary_status 
+    and ben.category_id <>:categoryId 
+    and ben.is_active = true and lower (ben.benf_search_str) like lower(:searchparam)'!
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dsrcDefaultFacilityLinkedFacilityRepository': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List gov.naco.soch.repository.DsrcDefaultFacilityLinkedFacilityRepository.findDataic1(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,org.springframework.data.domain.Pageable) but parameter 'Optional[searchParam]' not found in annotated query 'SELECT ib.id ,ben.uid, ib.pid, ben.first_name, ben.middle_name,ben.last_name,ben.gender_id, ben.age,ben.date_of_birth,ben.mobile_number
+    ,iv.visit_date,itr.tested_date,itr.report_received_date
+    ,ben.hiv_status_id AS hiv_status,ben.hiv_type_id AS hiv_type,itr.result_status,hs.name AS hiv_status_desc, itr.id  as result_id 
+    FROM soch.ictc_beneficiary ib
+    inner join soch.beneficiary ben ON ib.beneficiary_id = ben.id
+    left join soch.ictc_test_result itr ON ib.current_test_result_id = itr.id
+    left join soch.ictc_visit iv ON ib.recent_visit_id = iv.id
+    left join soch.master_hiv_status hs ON ben.hiv_status_id = hs.id
+    where ib.facility_id=:facilityId
+    and ib.beneficiary_status=:beneficiary_status 
+    and ben.category_id <>:categoryId 
+    and ben.is_active = true and lower (ben.benf_search_str) like lower(:searchparam)'!
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 37 common frames omitted
+Caused by: java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List gov.naco.soch.repository.DsrcDefaultFacilityLinkedFacilityRepository.findDataic1(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,org.springframework.data.domain.Pageable) but parameter 'Optional[searchParam]' not found in annotated query 'SELECT ib.id ,ben.uid, ib.pid, ben.first_name, ben.middle_name,ben.last_name,ben.gender_id, ben.age,ben.date_of_birth,ben.mobile_number
+    ,iv.visit_date,itr.tested_date,itr.report_received_date
+    ,ben.hiv_status_id AS hiv_status,ben.hiv_type_id AS hiv_type,itr.result_status,hs.name AS hiv_status_desc, itr.id  as result_id 
+    FROM soch.ictc_beneficiary ib
+    inner join soch.beneficiary ben ON ib.beneficiary_id = ben.id
+    left join soch.ictc_test_result itr ON ib.current_test_result_id = itr.id
+    left join soch.ictc_visit iv ON ib.recent_visit_id = iv.id
+    left join soch.master_hiv_status hs ON ben.hiv_status_id = hs.id
+    where ib.facility_id=:facilityId
+    and ib.beneficiary_status=:beneficiary_status 
+    and ben.category_id <>:categoryId 
+    and ben.is_active = true and lower (ben.benf_search_str) like lower(:searchparam)'!
+	at org.springframework.data.jpa.repository.query.JpaQueryMethod.assertParameterNamesInAnnotatedQuery(JpaQueryMethod.java:156)
+	at org.springframework.data.jpa.repository.query.JpaQueryMethod.<init>(JpaQueryMethod.java:135)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:79)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lookupQuery(RepositoryFactorySupport.java:574)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(RepositoryFactorySupport.java:567)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1052)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.mapMethodsToQuery(RepositoryFactorySupport.java:569)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$new$0(RepositoryFactorySupport.java:559)
+	at java.base/java.util.Optional.map(Optional.java:265)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:559)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:332)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:297)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:212)
+	at org.springframework.data.util.Lazy.get(Lazy.java:94)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:300)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:121)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	... 47 common frames omitted

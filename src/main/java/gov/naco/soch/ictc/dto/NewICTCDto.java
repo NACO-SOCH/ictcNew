@@ -3,125 +3,141 @@ package gov.naco.soch.ictc.dto;
 import java.util.Date;
 import java.util.Objects;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+
 public class NewICTCDto {
 
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private int id;
-
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private String pid;
-
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private String uid;
-
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private String firstName;
-
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private String middleName;
-
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private String lastName;
-
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Date visitDate;
-
-	private Integer beneficiaryId;
-
+	@JsonInclude(JsonInclude.Include.NON_NULL)
+	private int beneficiaryId;
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private String mobileNumber;
-
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private String age;
-
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Boolean isPregnant;
-	
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Date testedDate;
-
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Integer hivStatus;
-
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Integer hivType;
-
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Date dateOfBirth;
-
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Integer resultStatus;
-
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Integer visitId;
-
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private String infantCode;
-
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Integer occupationId;
-
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Integer maritalStatusId;
-
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Integer testType;
-
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Boolean isConsentDocumented;
-
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Integer beneficiaryStatus;
-
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Integer currentTestResultId;
-
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Integer categoryId;
-
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Integer genderId;
-
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Integer deletedReason;
-
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private String deletedReasonComment;
-
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Boolean isActive;
-
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Boolean isDeleted;
-
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Integer registeredFacilityId;
-	
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private String hivStatusDesc;
-
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private String beneficiaryStatusDesc;
-
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private String testTypeDesc;
-	
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	//new values
 	private String resultStatusDesc;
-	
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Date sampleCollectionDate;
-	
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private String hivTypeDesc;
-	
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private String consignmentId;
-	
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Integer ictcBeneficiaryId;
-	
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Date followUpDate;
-	
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Date reportReceivedDate;
-	
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Date reportDeliveryDate;
-	
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private String labName;
-	
-
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private String artCenterName;		
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private String artCenterCode ;	
-	
-	
-	
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Long defaultFacilityId;
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private String defaultFacilityName;
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Long defaultFacilityTypeId;
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Integer currentResultId;
-	
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	
 	private String oldPreArtNumber;
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private String oldArtNumber;
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private String preArtNumber;
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private String artNumber;
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private String status;
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Boolean lacLinked;
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Boolean isTransit;
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Date rSeq;
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private String artTransferStatus;
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private String transferredTo;
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private String gender;
-	
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Integer currentHivStatus;
-	
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private String currentHivType;
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Integer labId;
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private String labCode;
-	
+	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Integer resultStatusId;
 	
 	public Integer getLabId() {

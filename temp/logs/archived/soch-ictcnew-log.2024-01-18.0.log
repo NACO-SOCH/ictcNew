@@ -1,0 +1,175 @@
+2024-01-18 09:34:21,370 INFO gov.naco.soch.ictc.IctcApplication [restartedMain] Starting IctcApplication on DESKTOP-N2FUUPQ with PID 16508 (D:\sochbackend\ictcNew\target\classes started by NACO in D:\sochbackend\ictcNew)
+2024-01-18 09:34:21,375 INFO gov.naco.soch.ictc.IctcApplication [restartedMain] The following profiles are active: @env@
+2024-01-18 09:34:21,442 INFO org.springframework.boot.devtools.restart.ChangeableUrls [restartedMain] The Class-Path manifest attribute in C:\Users\NACO\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2024-01-18 09:34:21,443 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-18 09:34:21,443 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-18 09:34:22,409 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-18 09:34:23,719 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 1300ms. Found 455 JPA repository interfaces.
+2024-01-18 09:34:24,637 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-01-18 09:34:24,680 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-01-18 09:34:24,685 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-01-18 09:34:24,687 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2f2ad087' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-01-18 09:34:24,697 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-01-18 09:34:24,701 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-01-18 09:34:25,326 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9050 (http)
+2024-01-18 09:34:25,341 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2024-01-18 09:34:25,342 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2024-01-18 09:34:25,464 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/ictcNew] [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-01-18 09:34:25,465 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 4022 ms
+2024-01-18 09:34:26,423 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-18 09:34:26,540 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.4.9.Final}
+2024-01-18 09:34:26,722 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-01-18 09:34:27,141 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-01-18 09:34:28,928 WARN org.hibernate.boot.internal.InFlightMetadataCollectorImpl [restartedMain] HHH000069: Duplicate generator name tiOstBeneficiary
+2024-01-18 09:34:29,377 WARN org.hibernate.orm.cache [restartedMain] HHH90001006: Missing cache[default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2024-01-18 09:34:29,483 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-update-timestamps-region' created in EhcacheManager.
+2024-01-18 09:34:29,493 WARN org.hibernate.orm.cache [restartedMain] HHH90001006: Missing cache[default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2024-01-18 09:34:29,496 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-query-results-region' created in EhcacheManager.
+2024-01-18 09:34:32,910 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-01-18 09:34:33,270 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-18 09:34:35,964 INFO gov.naco.soch.security.WebSecurityConfig [restartedMain] Server is starting with crossDomainAllowedOrigins->:
+2024-01-18 09:34:36,019 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@28a30dfd, org.springframework.security.web.context.SecurityContextPersistenceFilter@3b05148d, org.springframework.security.web.header.HeaderWriterFilter@74163272, org.springframework.web.filter.CorsFilter@3e613c41, org.springframework.security.web.authentication.logout.LogoutFilter@2195c31a, gov.naco.soch.security.JwtAuthenticationFilter@754f7540, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5ab5fbfd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5afdc312, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@51e20cc8, org.springframework.security.web.session.SessionManagementFilter@31234104, org.springframework.security.web.access.ExceptionTranslationFilter@6734c78, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@714e6b4c]
+2024-01-18 09:34:44,610 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2024-01-18 09:34:44,775 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [restartedMain] Initializing ExecutorService 'taskScheduler'
+2024-01-18 09:34:44,900 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-01-18 09:34:44,986 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9050 (http) with context path '/ictcNew'
+2024-01-18 09:34:44,993 INFO gov.naco.soch.ictc.IctcApplication [restartedMain] Started IctcApplication in 24.081 seconds (JVM running for 24.595)
+2024-01-18 10:37:01,670 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [Thread-6] Shutting down ExecutorService 'taskScheduler'
+2024-01-18 10:37:01,672 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-6] Shutting down ExecutorService 'applicationTaskExecutor'
+2024-01-18 10:37:01,786 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-6] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-18 10:37:01,790 INFO org.ehcache.core.EhcacheManager [Thread-6] Cache 'default-query-results-region' removed from EhcacheManager.
+2024-01-18 10:37:01,792 INFO org.ehcache.core.EhcacheManager [Thread-6] Cache 'default-update-timestamps-region' removed from EhcacheManager.
+2024-01-18 11:56:34,218 INFO gov.naco.soch.ictc.IctcApplication [restartedMain] Starting IctcApplication on DESKTOP-N2FUUPQ with PID 21156 (D:\sochbackend\ictcNew\target\classes started by NACO in D:\sochbackend\ictcNew)
+2024-01-18 11:56:34,220 INFO gov.naco.soch.ictc.IctcApplication [restartedMain] The following profiles are active: @env@
+2024-01-18 11:56:34,271 INFO org.springframework.boot.devtools.restart.ChangeableUrls [restartedMain] The Class-Path manifest attribute in C:\Users\NACO\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2024-01-18 11:56:34,271 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-18 11:56:34,271 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-18 11:56:35,028 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-18 11:56:36,044 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 1010ms. Found 455 JPA repository interfaces.
+2024-01-18 11:56:36,827 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-01-18 11:56:36,864 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-01-18 11:56:36,870 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-01-18 11:56:36,872 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2a8a1ab7' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-01-18 11:56:36,878 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-01-18 11:56:36,881 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-01-18 11:56:37,449 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9050 (http)
+2024-01-18 11:56:37,460 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2024-01-18 11:56:37,460 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2024-01-18 11:56:37,558 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/ictcNew] [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-01-18 11:56:37,558 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 3287 ms
+2024-01-18 11:56:38,070 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-18 11:56:38,139 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.4.9.Final}
+2024-01-18 11:56:38,248 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-01-18 11:56:38,491 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-01-18 11:56:39,996 WARN org.hibernate.boot.internal.InFlightMetadataCollectorImpl [restartedMain] HHH000069: Duplicate generator name tiOstBeneficiary
+2024-01-18 11:56:40,326 WARN org.hibernate.orm.cache [restartedMain] HHH90001006: Missing cache[default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2024-01-18 11:56:40,420 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-update-timestamps-region' created in EhcacheManager.
+2024-01-18 11:56:40,429 WARN org.hibernate.orm.cache [restartedMain] HHH90001006: Missing cache[default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2024-01-18 11:56:40,431 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-query-results-region' created in EhcacheManager.
+2024-01-18 11:56:43,774 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-01-18 11:56:44,047 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-18 11:56:46,050 INFO gov.naco.soch.security.WebSecurityConfig [restartedMain] Server is starting with crossDomainAllowedOrigins->:
+2024-01-18 11:56:46,107 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@32f993d3, org.springframework.security.web.context.SecurityContextPersistenceFilter@2d8c4c28, org.springframework.security.web.header.HeaderWriterFilter@164b13e6, org.springframework.web.filter.CorsFilter@3f31b0d4, org.springframework.security.web.authentication.logout.LogoutFilter@2cdb80c4, gov.naco.soch.security.JwtAuthenticationFilter@660fb5e8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5f710163, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@a3d6b29, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@aa5d449, org.springframework.security.web.session.SessionManagementFilter@3dd70a1, org.springframework.security.web.access.ExceptionTranslationFilter@38006032, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@668e6427]
+2024-01-18 11:56:54,779 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2024-01-18 11:56:55,013 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [restartedMain] Initializing ExecutorService 'taskScheduler'
+2024-01-18 11:56:55,219 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2024-01-18 11:56:55,342 INFO org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+2024-01-18 11:56:55,364 WARN org.apache.catalina.loader.WebappClassLoaderBase [restartedMain] The web application [ictcNew] appears to have started a thread named [SpringBootJPAHikariCP housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@11/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11/java.lang.Thread.run(Thread.java:834)
+2024-01-18 11:56:55,389 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-01-18 11:56:55,400 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9050 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9050 or configure this application to listen on another port.
+
+2024-01-18 11:56:55,407 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [restartedMain] Shutting down ExecutorService 'taskScheduler'
+2024-01-18 11:56:55,413 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Shutting down ExecutorService 'applicationTaskExecutor'
+2024-01-18 11:56:55,670 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-18 11:56:55,674 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-query-results-region' removed from EhcacheManager.
+2024-01-18 11:56:55,677 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-update-timestamps-region' removed from EhcacheManager.
+2024-01-18 11:58:14,489 INFO gov.naco.soch.ictc.IctcApplication [restartedMain] Starting IctcApplication on DESKTOP-N2FUUPQ with PID 15300 (D:\sochbackend\ictcNew\target\classes started by NACO in D:\sochbackend\ictcNew)
+2024-01-18 11:58:14,491 INFO gov.naco.soch.ictc.IctcApplication [restartedMain] The following profiles are active: @env@
+2024-01-18 11:58:14,538 INFO org.springframework.boot.devtools.restart.ChangeableUrls [restartedMain] The Class-Path manifest attribute in C:\Users\NACO\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2024-01-18 11:58:14,538 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-18 11:58:14,538 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-18 11:58:15,258 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-18 11:58:16,218 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 952ms. Found 455 JPA repository interfaces.
+2024-01-18 11:58:16,992 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-01-18 11:58:17,034 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-01-18 11:58:17,041 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-01-18 11:58:17,042 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2b3532b2' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-01-18 11:58:17,047 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-01-18 11:58:17,052 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-01-18 11:58:17,653 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9050 (http)
+2024-01-18 11:58:17,665 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2024-01-18 11:58:17,665 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2024-01-18 11:58:17,763 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/ictcNew] [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-01-18 11:58:17,763 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 3225 ms
+2024-01-18 11:58:18,249 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-18 11:58:18,309 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.4.9.Final}
+2024-01-18 11:58:18,416 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-01-18 11:58:18,650 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-01-18 11:58:20,039 WARN org.hibernate.boot.internal.InFlightMetadataCollectorImpl [restartedMain] HHH000069: Duplicate generator name tiOstBeneficiary
+2024-01-18 11:58:20,312 WARN org.hibernate.orm.cache [restartedMain] HHH90001006: Missing cache[default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2024-01-18 11:58:20,390 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-update-timestamps-region' created in EhcacheManager.
+2024-01-18 11:58:20,397 WARN org.hibernate.orm.cache [restartedMain] HHH90001006: Missing cache[default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2024-01-18 11:58:20,400 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-query-results-region' created in EhcacheManager.
+2024-01-18 11:58:23,655 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-01-18 11:58:23,939 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-18 11:58:25,888 INFO gov.naco.soch.security.WebSecurityConfig [restartedMain] Server is starting with crossDomainAllowedOrigins->:
+2024-01-18 11:58:25,939 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@62300205, org.springframework.security.web.context.SecurityContextPersistenceFilter@34cf5be7, org.springframework.security.web.header.HeaderWriterFilter@15c4baaa, org.springframework.web.filter.CorsFilter@77b38bf1, org.springframework.security.web.authentication.logout.LogoutFilter@4551368d, gov.naco.soch.security.JwtAuthenticationFilter@2e37be65, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6ca19839, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6ff10b6f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5f441e14, org.springframework.security.web.session.SessionManagementFilter@6a94ef4e, org.springframework.security.web.access.ExceptionTranslationFilter@6db2374c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7627208d]
+2024-01-18 11:58:32,958 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2024-01-18 11:58:33,099 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [restartedMain] Initializing ExecutorService 'taskScheduler'
+2024-01-18 11:58:33,208 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2024-01-18 11:58:33,271 INFO org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+2024-01-18 11:58:33,271 WARN org.apache.catalina.loader.WebappClassLoaderBase [restartedMain] The web application [ictcNew] appears to have started a thread named [SpringBootJPAHikariCP housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@11/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11/java.lang.Thread.run(Thread.java:834)
+2024-01-18 11:58:33,271 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-01-18 11:58:33,271 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9050 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9050 or configure this application to listen on another port.
+
+2024-01-18 11:58:33,271 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [restartedMain] Shutting down ExecutorService 'taskScheduler'
+2024-01-18 11:58:33,271 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Shutting down ExecutorService 'applicationTaskExecutor'
+2024-01-18 11:58:33,445 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-18 11:58:33,445 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-query-results-region' removed from EhcacheManager.
+2024-01-18 11:58:33,445 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-update-timestamps-region' removed from EhcacheManager.
