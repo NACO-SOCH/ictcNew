@@ -37,8 +37,7 @@ public class MajorListController {
     	if (page1 == null || size == null) { page1 = 0; }
     	Pageable pageable = PageRequest.of(page1, size);
         List<ICTCVisitList> page= service.findByCriteriaBasic(equalsFacilityId,notEqualsCategoryId,equalsCategoryId,  pid, mobile, firstName, pageable);
-    	//int totalListCount=service.findCount(equalsFacilityId, notEqualsCategoryId,equalsCategoryId);
-        int totalListCount= 0;
+    	int totalListCount=service.findCount(equalsFacilityId, notEqualsCategoryId,equalsCategoryId);
         HttpHeaders headers = new HttpHeaders();
         headers.add("Access-Control-Expose-Headers", HEADER_X_TOTAL_COUNT);
         headers.add(HEADER_X_TOTAL_COUNT, ""+totalListCount);
@@ -66,16 +65,20 @@ public class MajorListController {
 
     }
     
+    //abc
     @GetMapping("/ictc-test-result-views/basic")
     public ResponseEntity<List<NewICTCDto>> getAllICTCTestResultViewsBasic(@RequestParam("page") Integer page1,
-            @RequestParam(name="testType.in" ) String testType,
+    		  @RequestParam(defaultValue = "10") Integer size,
+            @RequestParam(name="testType.in", required = false ) String testType,
             @RequestParam(name = "categoryId.equals", required = false) Integer equalsCategoryId,
             @RequestParam("facilityId.equals") int equalsFacilityId,
+            @RequestParam (name = "firstName.contains", required = false) String facilityIdequals,
+            @RequestParam (name = "lastName.contains", required = false) String lastName,
             @RequestParam ("sort") String sortBy ) {  	
     	if (page1 == null ) { page1 = 0; }
-    	Pageable pageable = PageRequest.of(page1, 10, Sort.by("id").descending());
+    	Pageable pageable = PageRequest.of(page1, size, Sort.by("id").descending());
 
-    	List<NewICTCDto> page= service.getTestResult(equalsFacilityId,equalsCategoryId, testType , pageable);
+    	List<NewICTCDto> page= service.getTestResult(equalsFacilityId,equalsCategoryId, testType ,facilityIdequals,lastName, pageable,page1,size);
          
         HttpHeaders headers = new HttpHeaders();
         headers.add("Access-Control-Expose-Headers", HEADER_X_TOTAL_COUNT);
@@ -83,17 +86,19 @@ public class MajorListController {
 
     }
     
-    
+    //abc1
     @GetMapping("/ictc-test-result-views/advanced")
     public ResponseEntity<List<NewICTCDto>> getAllICTCTestResultViewsAdvance(@RequestParam("page") Integer page1,
-            @RequestParam(name="testType.in" ) String testType,
+    		  @RequestParam(defaultValue = "10") Integer size,
+            @RequestParam(name="testType.in" , required = false ) String testType,
             @RequestParam(name = "sampleCollectionStatus.notEquals", required = false) Integer equalsCategoryId,
-            @RequestParam("facilityId.equals") int equalsFacilityId,
+            @RequestParam(name = "facilityId.equals" ,  required = false) int equalsFacilityId,
+            @RequestParam(name = "firstName.contains" , required = false) String firstName ,
             @RequestParam ("sort") String sortBy ) {  	
     	if (page1 == null ) {	page1 = 0; }
-    	Pageable pageable = PageRequest.of(page1, 10, Sort.by("id").descending());
-
-    	List<NewICTCDto> page= service.getTestResultAdvacne(equalsFacilityId,equalsCategoryId, testType , pageable);
+    	Pageable pageable = PageRequest.of(page1, size, Sort.by("id").descending());
+    	
+    	List<NewICTCDto> page= service.getTestResultAdvacne(equalsFacilityId,equalsCategoryId, testType , firstName, pageable);
          
         HttpHeaders headers = new HttpHeaders();
         headers.add("Access-Control-Expose-Headers", HEADER_X_TOTAL_COUNT);
@@ -114,8 +119,7 @@ public class MajorListController {
 	
 		if (page == null || size == null) {	page = 0; }
 		
-		//int totalListCount=service.countList(facilityIdEquals, beneficiaryStatusEquals,categoryIdNotEquals);
-		int totalListCount = 0;
+		int totalListCount=service.countList(facilityIdEquals, beneficiaryStatusEquals,categoryIdNotEquals);
 		Pageable pageable = PageRequest.of(page, size, Sort.by("beneficiaryId").descending());
     	
     	HttpHeaders headers = new HttpHeaders();
@@ -141,8 +145,7 @@ public class MajorListController {
 	
 		if (page == null || size == null) {	page = 0; }
 		
-		//int totalListCount=service.countListSearch(facilityIdEquals, beneficiaryStatusEquals,categoryIdNotEquals);
-		int totalListCount = 0;
+		int totalListCount=service.countListSearch(facilityIdEquals, beneficiaryStatusEquals,categoryIdNotEquals);
 		Pageable pageable = PageRequest.of(page, size, Sort.by("beneficiaryId").descending());
     	
     	HttpHeaders headers = new HttpHeaders();

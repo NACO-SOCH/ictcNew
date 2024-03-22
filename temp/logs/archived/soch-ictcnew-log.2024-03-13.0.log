@@ -1,0 +1,403 @@
+2024-03-13 09:46:35,963 INFO gov.naco.soch.ictc.IctcApplication [restartedMain] Starting IctcApplication on DESKTOP-N2FUUPQ with PID 3976 (D:\sochbackend\ictcNew\target\classes started by NACO in D:\sochbackend\ictcNew)
+2024-03-13 09:46:35,963 INFO gov.naco.soch.ictc.IctcApplication [restartedMain] The following profiles are active: @env@
+2024-03-13 09:46:36,025 INFO org.springframework.boot.devtools.restart.ChangeableUrls [restartedMain] The Class-Path manifest attribute in C:\Users\NACO\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2024-03-13 09:46:36,025 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-13 09:46:36,025 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-13 09:46:36,869 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-13 09:46:37,822 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 957ms. Found 457 JPA repository interfaces.
+2024-03-13 09:46:38,775 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-13 09:46:38,821 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-13 09:46:38,837 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-13 09:46:38,837 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@69e230c9' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-13 09:46:38,837 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-13 09:46:38,853 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-13 09:46:39,431 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9050 (http)
+2024-03-13 09:46:39,431 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2024-03-13 09:46:39,431 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2024-03-13 09:46:39,524 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/ictcNew] [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-03-13 09:46:39,524 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 3499 ms
+2024-03-13 09:46:40,243 INFO org.ehcache.shadow.org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource [restartedMain] Allocating 10.0MB in chunks
+2024-03-13 09:46:40,290 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'IctcBeneficiaryCount' created in EhcacheManager.
+2024-03-13 09:46:40,290 INFO org.ehcache.shadow.org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource [restartedMain] Allocating 10.0MB in chunks
+2024-03-13 09:46:40,305 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'PostPreCouncelling' created in EhcacheManager.
+2024-03-13 09:46:40,305 INFO org.ehcache.shadow.org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource [restartedMain] Allocating 10.0MB in chunks
+2024-03-13 09:46:40,305 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'SearchCount' created in EhcacheManager.
+2024-03-13 09:46:40,384 INFO org.ehcache.jsr107.Eh107CacheManager [restartedMain] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./D./sochbackend/ictcNew/target/classes/ehcache.xml,Cache=IctcBeneficiaryCount
+2024-03-13 09:46:40,384 INFO org.ehcache.jsr107.Eh107CacheManager [restartedMain] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./D./sochbackend/ictcNew/target/classes/ehcache.xml,Cache=PostPreCouncelling
+2024-03-13 09:46:40,384 INFO org.ehcache.jsr107.Eh107CacheManager [restartedMain] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./D./sochbackend/ictcNew/target/classes/ehcache.xml,Cache=SearchCount
+2024-03-13 09:46:40,384 INFO org.ehcache.jsr107.Eh107CacheManager [restartedMain] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./D./sochbackend/ictcNew/target/classes/ehcache.xml,Cache=IctcBeneficiaryCount
+2024-03-13 09:46:40,384 INFO org.ehcache.jsr107.Eh107CacheManager [restartedMain] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./D./sochbackend/ictcNew/target/classes/ehcache.xml,Cache=PostPreCouncelling
+2024-03-13 09:46:40,384 INFO org.ehcache.jsr107.Eh107CacheManager [restartedMain] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./D./sochbackend/ictcNew/target/classes/ehcache.xml,Cache=SearchCount
+2024-03-13 09:46:40,462 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] Driver class org.postgresql.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ictcNew
+  delegate: true
+----------> Parent Classloader:
+org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3cbb693d
+
+2024-03-13 09:46:40,774 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-13 09:46:40,852 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.4.9.Final}
+2024-03-13 09:46:40,977 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-03-13 09:46:41,087 WARN com.zaxxer.hikari.HikariConfig [restartedMain] SpringBootJPAHikariCP - maxLifetime is less than 30000ms, setting to default 1800000ms.
+2024-03-13 09:46:41,087 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] SpringBootJPAHikariCP - configuration:
+2024-03-13 09:46:41,087 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] allowPoolSuspension.............false
+2024-03-13 09:46:41,087 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] autoCommit......................false
+2024-03-13 09:46:41,087 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] catalog.........................none
+2024-03-13 09:46:41,087 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] connectionInitSql...............none
+2024-03-13 09:46:41,102 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] connectionTestQuery.............none
+2024-03-13 09:46:41,102 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] connectionTimeout...............50000
+2024-03-13 09:46:41,102 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] dataSource......................none
+2024-03-13 09:46:41,102 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] dataSourceClassName.............none
+2024-03-13 09:46:41,102 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] dataSourceJNDI..................none
+2024-03-13 09:46:41,102 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] dataSourceProperties............{password=<masked>}
+2024-03-13 09:46:41,102 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] driverClassName................."org.postgresql.Driver"
+2024-03-13 09:46:41,102 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] healthCheckProperties...........{}
+2024-03-13 09:46:41,102 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] healthCheckRegistry.............none
+2024-03-13 09:46:41,102 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] idleTimeout.....................10000
+2024-03-13 09:46:41,102 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] initializationFailTimeout.......1
+2024-03-13 09:46:41,102 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] isolateInternalQueries..........false
+2024-03-13 09:46:41,102 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] jdbcUrl.........................jdbc:postgresql://10.25.69.25:5432/soch_local_app_db?currentSchema=prison
+2024-03-13 09:46:41,102 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] leakDetectionThreshold..........0
+2024-03-13 09:46:41,102 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] maxLifetime.....................1800000
+2024-03-13 09:46:41,102 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] maximumPoolSize.................120
+2024-03-13 09:46:41,102 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] metricRegistry..................none
+2024-03-13 09:46:41,102 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] metricsTrackerFactory...........none
+2024-03-13 09:46:41,102 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] minimumIdle.....................20
+2024-03-13 09:46:41,102 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] password........................<masked>
+2024-03-13 09:46:41,102 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] poolName........................"SpringBootJPAHikariCP"
+2024-03-13 09:46:41,102 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] readOnly........................false
+2024-03-13 09:46:41,102 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] registerMbeans..................false
+2024-03-13 09:46:41,102 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] scheduledExecutor...............none
+2024-03-13 09:46:41,102 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] schema..........................none
+2024-03-13 09:46:41,102 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] threadFactory...................internal
+2024-03-13 09:46:41,102 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] transactionIsolation............default
+2024-03-13 09:46:41,102 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] username........................"soch_stag_app_user"
+2024-03-13 09:46:41,102 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] validationTimeout...............5000
+2024-03-13 09:46:41,102 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] SpringBootJPAHikariCP - Starting...
+2024-03-13 09:46:41,165 DEBUG com.zaxxer.hikari.pool.HikariPool [restartedMain] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@131e9f7c
+2024-03-13 09:46:41,165 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] SpringBootJPAHikariCP - Start completed.
+2024-03-13 09:46:41,180 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-03-13 09:46:41,290 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=1, active=1, idle=0, waiting=0)
+2024-03-13 09:46:41,290 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=1, active=1, idle=0, waiting=0)
+2024-03-13 09:46:41,290 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@249d6c6f
+2024-03-13 09:46:41,305 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@2a5a968c
+2024-03-13 09:46:41,305 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@2e65071f
+2024-03-13 09:46:41,321 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@6b679cb7
+2024-03-13 09:46:41,321 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@24566ba0
+2024-03-13 09:46:41,336 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@5ac67750
+2024-03-13 09:46:41,336 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@5c1ddee8
+2024-03-13 09:46:41,352 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@b4863f8
+2024-03-13 09:46:41,352 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@1cd4025a
+2024-03-13 09:46:41,368 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@75c19a67
+2024-03-13 09:46:41,368 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@4719f0a9
+2024-03-13 09:46:41,368 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@f061c11
+2024-03-13 09:46:41,383 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@33fc1979
+2024-03-13 09:46:41,383 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@4a17bfc3
+2024-03-13 09:46:41,399 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@42839290
+2024-03-13 09:46:41,399 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@7ddae845
+2024-03-13 09:46:41,415 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@2ebe1156
+2024-03-13 09:46:41,415 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@59a04ae5
+2024-03-13 09:46:41,430 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@7e94453
+2024-03-13 09:46:41,430 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@2d5b1c2b
+2024-03-13 09:46:41,430 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - After adding stats (total=21, active=1, idle=20, waiting=0)
+2024-03-13 09:46:41,883 DEBUG com.zaxxer.hikari.pool.ProxyConnection [restartedMain] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@131e9f7c due to dirty commit state on close().
+2024-03-13 09:46:42,430 WARN org.hibernate.boot.internal.InFlightMetadataCollectorImpl [restartedMain] HHH000069: Duplicate generator name tiOstBeneficiary
+2024-03-13 09:46:42,727 WARN org.hibernate.orm.cache [restartedMain] HHH90001006: Missing cache[default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2024-03-13 09:46:42,727 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-update-timestamps-region' created in EhcacheManager.
+2024-03-13 09:46:42,727 WARN org.hibernate.orm.cache [restartedMain] HHH90001006: Missing cache[default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2024-03-13 09:46:42,727 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-query-results-region' created in EhcacheManager.
+2024-03-13 09:46:46,085 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-03-13 09:46:46,335 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-13 09:46:47,976 INFO gov.naco.soch.security.WebSecurityConfig [restartedMain] Server is starting with crossDomainAllowedOrigins->:
+2024-03-13 09:46:48,038 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@58ca946, org.springframework.security.web.context.SecurityContextPersistenceFilter@758cba48, org.springframework.security.web.header.HeaderWriterFilter@65998215, org.springframework.web.filter.CorsFilter@37e2b161, org.springframework.security.web.authentication.logout.LogoutFilter@295e91d7, gov.naco.soch.security.JwtAuthenticationFilter@4b570043, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@38a854e5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5814fea6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1906e833, org.springframework.security.web.session.SessionManagementFilter@2707f2e0, org.springframework.security.web.access.ExceptionTranslationFilter@46f26adc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@697e6e55]
+2024-03-13 09:46:55,443 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2024-03-13 09:46:55,677 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [restartedMain] Initializing ExecutorService 'taskScheduler'
+2024-03-13 09:46:55,787 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-03-13 09:46:55,802 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 13 endpoint(s) beneath base path '/actuator'
+2024-03-13 09:46:55,896 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9050 (http) with context path '/ictcNew'
+2024-03-13 09:46:55,912 INFO gov.naco.soch.ictc.IctcApplication [restartedMain] Started IctcApplication in 20.365 seconds (JVM running for 20.809)
+2024-03-13 09:46:59,646 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/ictcNew] [http-nio-9050-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-13 09:46:59,646 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-9050-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-03-13 09:46:59,646 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-9050-exec-1] Completed initialization in 0 ms
+2024-03-13 09:46:59,677 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-2] Got the request-->/ictcNew/ictc/ictc-visit-list/basic:
+2024-03-13 09:46:59,755 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-2] Processing request --> username-->ICTCRAJ:request-->/ictcNew/ictc/ictc-visit-list/basic:
+2024-03-13 09:46:59,807 DEBUG com.zaxxer.hikari.pool.ProxyConnection [http-nio-9050-exec-2] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@131e9f7c due to dirty commit state on close().
+2024-03-13 09:46:59,854 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-2] params
+2024-03-13 09:46:59,854 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-2] Entering into Benifciary List method
+2024-03-13 09:46:59,854 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-2] Before querying database: 0 ms
+2024-03-13 09:46:59,854 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-2] adult
+2024-03-13 09:47:11,295 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=21, active=1, idle=20, waiting=0)
+2024-03-13 09:47:11,296 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=21, active=1, idle=20, waiting=0)
+2024-03-13 09:47:41,297 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=21, active=1, idle=20, waiting=0)
+2024-03-13 09:47:41,297 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=21, active=1, idle=20, waiting=0)
+2024-03-13 09:48:11,306 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=21, active=1, idle=20, waiting=0)
+2024-03-13 09:48:11,306 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=21, active=1, idle=20, waiting=0)
+2024-03-13 09:48:23,969 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-2] After querying database: 84115 ms
+2024-03-13 09:48:23,969 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-2] Obj Size : {}10
+2024-03-13 09:48:41,317 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=21, active=1, idle=20, waiting=0)
+2024-03-13 09:48:41,317 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=21, active=1, idle=20, waiting=0)
+2024-03-13 09:48:47,648 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-4] Got the request-->/ictcNew/ictc/ictc-visit-list/basic:
+2024-03-13 09:48:47,648 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-4] Processing request --> username-->ICTCRAJ:request-->/ictcNew/ictc/ictc-visit-list/basic:
+2024-03-13 09:48:47,648 DEBUG com.zaxxer.hikari.pool.ProxyConnection [http-nio-9050-exec-4] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@249d6c6f due to dirty commit state on close().
+2024-03-13 09:48:47,664 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-4] params
+2024-03-13 09:48:47,664 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-4] Entering into Benifciary List method
+2024-03-13 09:48:47,664 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-4] Before querying database: 0 ms
+2024-03-13 09:48:47,664 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-4] adult
+2024-03-13 09:48:47,881 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-4] After querying database: 217 ms
+2024-03-13 09:48:47,881 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-4] Obj Size : {}10
+2024-03-13 09:49:11,318 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=21, active=2, idle=19, waiting=0)
+2024-03-13 09:49:11,318 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=21, active=2, idle=19, waiting=0)
+2024-03-13 09:49:11,328 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@68259ad0
+2024-03-13 09:49:11,328 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - After adding stats (total=22, active=2, idle=20, waiting=0)
+2024-03-13 09:49:17,766 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-6] Got the request-->/ictcNew/ictc/ictc-visit-list/basic:
+2024-03-13 09:49:17,769 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-6] Processing request --> username-->ICTCRAJ:request-->/ictcNew/ictc/ictc-visit-list/basic:
+2024-03-13 09:49:17,780 DEBUG com.zaxxer.hikari.pool.ProxyConnection [http-nio-9050-exec-6] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@2a5a968c due to dirty commit state on close().
+2024-03-13 09:49:17,781 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-6] params
+2024-03-13 09:49:17,781 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-6] Entering into Benifciary List method
+2024-03-13 09:49:17,781 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-6] Before querying database: 0 ms
+2024-03-13 09:49:17,781 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-6] adult
+2024-03-13 09:49:18,033 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-6] After querying database: 252 ms
+2024-03-13 09:49:18,033 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-6] Obj Size : {}10
+2024-03-13 09:49:41,322 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=22, active=3, idle=19, waiting=0)
+2024-03-13 09:49:41,322 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=22, active=3, idle=19, waiting=0)
+2024-03-13 09:49:41,322 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@3d91ce74
+2024-03-13 09:49:41,322 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - After adding stats (total=23, active=3, idle=20, waiting=0)
+2024-03-13 09:50:11,326 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=23, active=3, idle=20, waiting=0)
+2024-03-13 09:50:11,326 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=23, active=3, idle=20, waiting=0)
+2024-03-13 09:50:41,339 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=23, active=3, idle=20, waiting=0)
+2024-03-13 09:50:41,339 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=23, active=3, idle=20, waiting=0)
+2024-03-13 09:51:04,419 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-2] APIEXECUTIONTIME /ictcNew/ictc/ictc-visit-list/basic-->username-->ICTCRAJ:-->244742 ms
+2024-03-13 09:51:04,481 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-4] APIEXECUTIONTIME /ictcNew/ictc/ictc-visit-list/basic-->username-->ICTCRAJ:-->136833 ms
+2024-03-13 09:51:05,354 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-6] APIEXECUTIONTIME /ictcNew/ictc/ictc-visit-list/basic-->username-->ICTCRAJ:-->107588 ms
+2024-03-13 09:51:11,345 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=23, active=0, idle=23, waiting=0)
+2024-03-13 09:51:11,347 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:51:11,347 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@3d91ce74: (connection has passed idleTimeout)
+2024-03-13 09:51:11,348 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@68259ad0: (connection has passed idleTimeout)
+2024-03-13 09:51:11,348 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@2d5b1c2b: (connection has passed idleTimeout)
+2024-03-13 09:51:41,363 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:51:41,363 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:52:11,369 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:52:11,369 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:52:41,384 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:52:41,384 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:53:11,399 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:53:11,399 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:53:41,401 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:53:41,401 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:54:11,403 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:54:11,403 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:54:41,408 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:54:41,408 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:55:11,410 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:55:11,410 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:55:41,411 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:55:41,411 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:56:11,421 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:56:11,421 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:56:41,422 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:56:41,423 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:57:11,436 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:57:11,436 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:57:41,447 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:57:41,447 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:58:11,461 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:58:11,461 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:58:41,466 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:58:41,466 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:59:11,473 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:59:11,473 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:59:41,489 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 09:59:41,489 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:00:11,496 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:00:11,496 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:00:41,505 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:00:41,505 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:01:11,509 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:01:11,509 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:01:41,518 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:01:41,518 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:02:11,521 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:02:11,521 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:02:41,534 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:02:41,534 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:03:11,541 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:03:11,541 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:03:41,547 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:03:41,547 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:04:11,549 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:04:11,549 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:04:41,558 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:04:41,558 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:05:11,559 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:05:11,559 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:05:41,573 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:05:41,573 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:06:11,582 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:06:11,582 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:06:41,592 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:06:41,592 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:07:11,606 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:07:11,606 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:07:41,609 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:07:41,609 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:08:11,612 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:08:11,612 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:08:41,619 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:08:41,619 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:09:11,628 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:09:11,628 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:09:41,642 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:09:41,642 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:10:11,645 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:10:11,645 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:10:41,650 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:10:41,650 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:11:11,659 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:11:11,659 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:11:41,661 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:11:41,661 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:12:11,676 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:12:11,676 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:12:41,691 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:12:41,691 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:13:11,703 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:13:11,703 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:13:41,719 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:13:41,719 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:14:11,732 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:14:11,732 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:14:41,748 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:14:41,748 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:15:11,758 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:15:11,758 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:15:41,766 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:15:41,766 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:15:57,928 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@f061c11: (connection has passed maxLifetime)
+2024-03-13 10:15:57,928 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@379861d9
+2024-03-13 10:15:59,695 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@249d6c6f: (connection has passed maxLifetime)
+2024-03-13 10:15:59,695 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@395f995a
+2024-03-13 10:16:04,104 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@1cd4025a: (connection has passed maxLifetime)
+2024-03-13 10:16:04,104 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@3d600aa9
+2024-03-13 10:16:04,292 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@131e9f7c: (connection has passed maxLifetime)
+2024-03-13 10:16:04,292 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@78629361
+2024-03-13 10:16:05,026 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@59a04ae5: (connection has passed maxLifetime)
+2024-03-13 10:16:05,026 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@c00b31d
+2024-03-13 10:16:05,777 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@2e65071f: (connection has passed maxLifetime)
+2024-03-13 10:16:05,777 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@49d06e8e
+2024-03-13 10:16:06,590 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@33fc1979: (connection has passed maxLifetime)
+2024-03-13 10:16:06,590 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@7458105f
+2024-03-13 10:16:07,012 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@5c1ddee8: (connection has passed maxLifetime)
+2024-03-13 10:16:07,012 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@184d6c2e
+2024-03-13 10:16:11,767 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:16:11,767 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:16:15,894 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@5ac67750: (connection has passed maxLifetime)
+2024-03-13 10:16:15,894 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@28fde6a3
+2024-03-13 10:16:21,955 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@7ddae845: (connection has passed maxLifetime)
+2024-03-13 10:16:21,955 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@5108e713
+2024-03-13 10:16:22,518 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@b4863f8: (connection has passed maxLifetime)
+2024-03-13 10:16:22,518 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@5fcf0342
+2024-03-13 10:16:24,818 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@42839290: (connection has passed maxLifetime)
+2024-03-13 10:16:24,818 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@5bf08c63
+2024-03-13 10:16:28,940 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@4719f0a9: (connection has passed maxLifetime)
+2024-03-13 10:16:28,940 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@1ef20979
+2024-03-13 10:16:28,955 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@24566ba0: (connection has passed maxLifetime)
+2024-03-13 10:16:28,955 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@85445cb
+2024-03-13 10:16:32,291 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@2ebe1156: (connection has passed maxLifetime)
+2024-03-13 10:16:32,291 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@2fa69290
+2024-03-13 10:16:32,368 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@7e94453: (connection has passed maxLifetime)
+2024-03-13 10:16:32,368 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@70ea8093
+2024-03-13 10:16:35,665 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@6b679cb7: (connection has passed maxLifetime)
+2024-03-13 10:16:35,665 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@7eddf636
+2024-03-13 10:16:35,775 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@2a5a968c: (connection has passed maxLifetime)
+2024-03-13 10:16:35,775 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@548d8e3b
+2024-03-13 10:16:36,134 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@4a17bfc3: (connection has passed maxLifetime)
+2024-03-13 10:16:36,134 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@4f24b428
+2024-03-13 10:16:37,681 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@75c19a67: (connection has passed maxLifetime)
+2024-03-13 10:16:37,681 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@6bee4b47
+2024-03-13 10:16:41,775 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:16:41,775 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:17:11,778 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:17:11,778 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:17:41,784 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:17:41,784 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:18:11,793 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:18:11,793 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:18:41,800 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:18:41,800 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:19:11,801 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:19:11,801 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:19:41,809 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:19:41,809 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:20:11,811 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:20:11,811 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:20:41,822 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:20:41,822 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:21:11,833 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:21:11,833 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:21:41,835 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:21:41,835 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:22:11,848 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:22:11,848 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:22:41,854 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:22:41,854 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:23:11,870 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:23:11,870 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:23:41,875 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:23:41,875 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:24:11,878 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:24:11,878 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:24:41,880 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:24:41,880 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:25:11,882 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:25:11,882 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:25:41,886 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:25:41,886 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:26:11,886 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:26:11,886 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:26:41,888 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:26:41,888 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:27:11,889 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:27:11,889 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:27:41,891 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:27:41,891 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:28:11,892 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:28:11,892 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:28:41,902 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:28:41,902 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:29:11,910 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:29:11,910 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:29:41,915 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:29:41,915 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:30:11,917 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:30:11,917 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:30:14,760 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [Thread-6] Shutting down ExecutorService 'taskScheduler'
+2024-03-13 10:30:14,760 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-6] Shutting down ExecutorService 'applicationTaskExecutor'
+2024-03-13 10:30:14,932 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-6] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-13 10:30:14,932 INFO org.ehcache.core.EhcacheManager [Thread-6] Cache 'default-query-results-region' removed from EhcacheManager.
+2024-03-13 10:30:14,932 INFO org.ehcache.core.EhcacheManager [Thread-6] Cache 'default-update-timestamps-region' removed from EhcacheManager.
+2024-03-13 10:30:14,932 INFO com.zaxxer.hikari.HikariDataSource [Thread-6] SpringBootJPAHikariCP - Shutdown initiated...
+2024-03-13 10:30:14,932 DEBUG com.zaxxer.hikari.pool.HikariPool [Thread-6] SpringBootJPAHikariCP - Before shutdown stats (total=20, active=0, idle=20, waiting=0)
+2024-03-13 10:30:14,932 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@379861d9: (connection evicted)
+2024-03-13 10:30:14,932 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@395f995a: (connection evicted)
+2024-03-13 10:30:14,932 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@3d600aa9: (connection evicted)
+2024-03-13 10:30:14,932 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@78629361: (connection evicted)
+2024-03-13 10:30:14,932 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@c00b31d: (connection evicted)
+2024-03-13 10:30:14,932 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@49d06e8e: (connection evicted)
+2024-03-13 10:30:14,932 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@7458105f: (connection evicted)
+2024-03-13 10:30:14,932 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@184d6c2e: (connection evicted)
+2024-03-13 10:30:14,932 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@28fde6a3: (connection evicted)
+2024-03-13 10:30:14,932 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@5108e713: (connection evicted)
+2024-03-13 10:30:14,947 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@5fcf0342: (connection evicted)
+2024-03-13 10:30:14,947 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@5bf08c63: (connection evicted)
+2024-03-13 10:30:14,947 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@1ef20979: (connection evicted)
+2024-03-13 10:30:14,947 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@85445cb: (connection evicted)
+2024-03-13 10:30:14,947 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@2fa69290: (connection evicted)
+2024-03-13 10:30:14,947 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@70ea8093: (connection evicted)
+2024-03-13 10:30:14,947 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@7eddf636: (connection evicted)
+2024-03-13 10:30:14,947 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@548d8e3b: (connection evicted)
+2024-03-13 10:30:14,947 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@4f24b428: (connection evicted)
+2024-03-13 10:30:14,947 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@6bee4b47: (connection evicted)
+2024-03-13 10:30:14,947 DEBUG com.zaxxer.hikari.pool.HikariPool [Thread-6] SpringBootJPAHikariCP - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-03-13 10:30:14,947 INFO com.zaxxer.hikari.HikariDataSource [Thread-6] SpringBootJPAHikariCP - Shutdown completed.
+2024-03-13 10:30:14,947 INFO org.ehcache.core.EhcacheManager [Thread-6] Cache 'IctcBeneficiaryCount' removed from EhcacheManager.
+2024-03-13 10:30:14,947 INFO org.ehcache.core.EhcacheManager [Thread-6] Cache 'PostPreCouncelling' removed from EhcacheManager.
+2024-03-13 10:30:14,947 INFO org.ehcache.core.EhcacheManager [Thread-6] Cache 'SearchCount' removed from EhcacheManager.

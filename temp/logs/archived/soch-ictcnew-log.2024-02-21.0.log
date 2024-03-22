@@ -1,0 +1,499 @@
+2024-02-21 11:43:29,869 INFO gov.naco.soch.ictc.IctcApplication [restartedMain] Starting IctcApplication on DESKTOP-N2FUUPQ with PID 1124 (D:\sochbackend\ictcNew\target\classes started by NACO in D:\sochbackend\ictcNew)
+2024-02-21 11:43:29,875 INFO gov.naco.soch.ictc.IctcApplication [restartedMain] The following profiles are active: @env@
+2024-02-21 11:43:29,928 INFO org.springframework.boot.devtools.restart.ChangeableUrls [restartedMain] The Class-Path manifest attribute in C:\Users\NACO\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2024-02-21 11:43:29,929 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-21 11:43:29,929 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-21 11:43:37,827 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-21 11:43:38,723 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 889ms. Found 456 JPA repository interfaces.
+2024-02-21 11:43:39,640 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-21 11:43:39,692 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-21 11:43:39,698 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-21 11:43:39,700 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@462eb010' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-21 11:43:39,701 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-21 11:43:39,705 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-21 11:43:40,316 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9050 (http)
+2024-02-21 11:43:40,327 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2024-02-21 11:43:40,327 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2024-02-21 11:43:40,444 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/ictcNew] [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-02-21 11:43:40,444 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 10515 ms
+2024-02-21 11:43:40,847 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] Driver class org.postgresql.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ictcNew
+  delegate: true
+----------> Parent Classloader:
+org.springframework.boot.devtools.restart.classloader.RestartClassLoader@619c977e
+
+2024-02-21 11:43:41,126 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-21 11:43:41,198 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.4.9.Final}
+2024-02-21 11:43:41,291 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-02-21 11:43:41,409 WARN com.zaxxer.hikari.HikariConfig [restartedMain] SpringBootJPAHikariCP - maxLifetime is less than 30000ms, setting to default 1800000ms.
+2024-02-21 11:43:41,409 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] SpringBootJPAHikariCP - configuration:
+2024-02-21 11:43:41,410 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] allowPoolSuspension.............false
+2024-02-21 11:43:41,411 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] autoCommit......................false
+2024-02-21 11:43:41,411 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] catalog.........................none
+2024-02-21 11:43:41,411 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] connectionInitSql...............none
+2024-02-21 11:43:41,411 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] connectionTestQuery.............none
+2024-02-21 11:43:41,411 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] connectionTimeout...............50000
+2024-02-21 11:43:41,411 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] dataSource......................none
+2024-02-21 11:43:41,411 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] dataSourceClassName.............none
+2024-02-21 11:43:41,411 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] dataSourceJNDI..................none
+2024-02-21 11:43:41,411 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] dataSourceProperties............{password=<masked>}
+2024-02-21 11:43:41,411 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] driverClassName................."org.postgresql.Driver"
+2024-02-21 11:43:41,411 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] healthCheckProperties...........{}
+2024-02-21 11:43:41,411 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] healthCheckRegistry.............none
+2024-02-21 11:43:41,411 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] idleTimeout.....................10000
+2024-02-21 11:43:41,411 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] initializationFailTimeout.......1
+2024-02-21 11:43:41,411 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] isolateInternalQueries..........false
+2024-02-21 11:43:41,412 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] jdbcUrl.........................jdbc:postgresql://10.25.69.25:5432/soch_local_app_db?currentSchema=prison
+2024-02-21 11:43:41,412 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] leakDetectionThreshold..........0
+2024-02-21 11:43:41,412 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] maxLifetime.....................1800000
+2024-02-21 11:43:41,412 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] maximumPoolSize.................120
+2024-02-21 11:43:41,412 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] metricRegistry..................none
+2024-02-21 11:43:41,412 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] metricsTrackerFactory...........none
+2024-02-21 11:43:41,412 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] minimumIdle.....................20
+2024-02-21 11:43:41,412 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] password........................<masked>
+2024-02-21 11:43:41,412 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] poolName........................"SpringBootJPAHikariCP"
+2024-02-21 11:43:41,412 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] readOnly........................false
+2024-02-21 11:43:41,412 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] registerMbeans..................false
+2024-02-21 11:43:41,412 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] scheduledExecutor...............none
+2024-02-21 11:43:41,412 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] schema..........................none
+2024-02-21 11:43:41,412 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] threadFactory...................internal
+2024-02-21 11:43:41,412 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] transactionIsolation............default
+2024-02-21 11:43:41,412 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] username........................"soch_stag_app_user"
+2024-02-21 11:43:41,412 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] validationTimeout...............5000
+2024-02-21 11:43:41,412 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] SpringBootJPAHikariCP - Starting...
+2024-02-21 11:43:41,480 DEBUG com.zaxxer.hikari.pool.HikariPool [restartedMain] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@5f2b689
+2024-02-21 11:43:41,481 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] SpringBootJPAHikariCP - Start completed.
+2024-02-21 11:43:41,493 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-02-21 11:43:41,584 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=1, active=1, idle=0, waiting=0)
+2024-02-21 11:43:41,584 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=1, active=1, idle=0, waiting=0)
+2024-02-21 11:43:41,596 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@33931d42
+2024-02-21 11:43:41,606 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@3d54f540
+2024-02-21 11:43:41,615 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@396b7632
+2024-02-21 11:43:41,625 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@7c69ff7b
+2024-02-21 11:43:41,634 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@573b84b9
+2024-02-21 11:43:41,644 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@4d5f85eb
+2024-02-21 11:43:41,652 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@2fe7a094
+2024-02-21 11:43:41,661 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@1c460034
+2024-02-21 11:43:41,671 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@17d34149
+2024-02-21 11:43:41,680 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@2692ee85
+2024-02-21 11:43:41,689 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@34e309c3
+2024-02-21 11:43:41,699 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@1808f8cb
+2024-02-21 11:43:41,708 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@155c2b8a
+2024-02-21 11:43:41,717 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@240b1962
+2024-02-21 11:43:41,727 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@80aa131
+2024-02-21 11:43:41,737 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@579bde5b
+2024-02-21 11:43:41,745 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@23efbf59
+2024-02-21 11:43:41,752 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@5f53624f
+2024-02-21 11:43:41,758 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@28d53bd
+2024-02-21 11:43:41,764 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@bed3cb1
+2024-02-21 11:43:41,764 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - After adding stats (total=21, active=1, idle=20, waiting=0)
+2024-02-21 11:43:42,312 DEBUG com.zaxxer.hikari.pool.ProxyConnection [restartedMain] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@5f2b689 due to dirty commit state on close().
+2024-02-21 11:43:42,871 WARN org.hibernate.boot.internal.InFlightMetadataCollectorImpl [restartedMain] HHH000069: Duplicate generator name tiOstBeneficiary
+2024-02-21 11:43:43,137 WARN org.hibernate.orm.cache [restartedMain] HHH90001006: Missing cache[default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2024-02-21 11:43:43,207 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-update-timestamps-region' created in EhcacheManager.
+2024-02-21 11:43:43,214 WARN org.hibernate.orm.cache [restartedMain] HHH90001006: Missing cache[default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2024-02-21 11:43:43,216 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-query-results-region' created in EhcacheManager.
+2024-02-21 11:43:46,307 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-02-21 11:43:46,552 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-21 11:43:48,083 INFO gov.naco.soch.security.WebSecurityConfig [restartedMain] Server is starting with crossDomainAllowedOrigins->:
+2024-02-21 11:43:48,131 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@478bf532, org.springframework.security.web.context.SecurityContextPersistenceFilter@4a80d1d, org.springframework.security.web.header.HeaderWriterFilter@61e2cc2d, org.springframework.web.filter.CorsFilter@73f15d3e, org.springframework.security.web.authentication.logout.LogoutFilter@1e4ec462, gov.naco.soch.security.JwtAuthenticationFilter@1971ba5b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1802583f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4e94be0d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@26592fe2, org.springframework.security.web.session.SessionManagementFilter@76f876bf, org.springframework.security.web.access.ExceptionTranslationFilter@449008e2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@68999082]
+2024-02-21 11:43:55,422 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2024-02-21 11:43:55,687 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [restartedMain] Initializing ExecutorService 'taskScheduler'
+2024-02-21 11:43:55,820 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2024-02-21 11:43:55,827 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 13 endpoint(s) beneath base path '/actuator'
+2024-02-21 11:43:55,941 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9050 (http) with context path '/ictcNew'
+2024-02-21 11:43:55,949 INFO gov.naco.soch.ictc.IctcApplication [restartedMain] Started IctcApplication in 26.471 seconds (JVM running for 28.507)
+2024-02-21 11:44:11,589 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=21, active=0, idle=21, waiting=0)
+2024-02-21 11:44:11,591 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-02-21 11:44:11,591 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@bed3cb1: (connection has passed idleTimeout)
+2024-02-21 11:44:17,496 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/ictcNew] [http-nio-9050-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-21 11:44:17,497 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-9050-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-02-21 11:44:17,505 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-9050-exec-1] Completed initialization in 8 ms
+2024-02-21 11:44:17,539 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-2] Got the request-->/ictcNew/ictc/ictc-visit-list/basic:
+2024-02-21 11:44:17,676 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-2] Processing request --> username-->ictccounsellor:request-->/ictcNew/ictc/ictc-visit-list/basic:
+2024-02-21 11:44:17,745 DEBUG com.zaxxer.hikari.pool.ProxyConnection [http-nio-9050-exec-2] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@5f2b689 due to dirty commit state on close().
+2024-02-21 11:44:17,784 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-2] params
+2024-02-21 11:44:17,784 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-2] Entering into Benifciary List method
+2024-02-21 11:44:17,784 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-2] Before querying database: 0 ms
+2024-02-21 11:44:17,784 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-2] infant
+2024-02-21 11:44:19,841 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-2] After querying database: 2057 ms
+2024-02-21 11:44:19,841 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-2] Obj Size : {}10
+2024-02-21 11:44:19,859 ERROR gov.naco.soch.aop.ExceptionHandlerAdvice [http-nio-9050-exec-2] EXCEPTION username-->ictccounsellor:request-->uri=/ictcNew/ictc/ictc-visit-list/basic:
+java.lang.IllegalArgumentException: Cannot find cache named 'ictcBeneficiaryCount' for Builder[public java.lang.Integer gov.naco.soch.ictc.service.MajorListService.findCount(java.lang.Integer,java.lang.Integer,java.lang.Integer)] caches=[ictcBeneficiaryCount] | key='' | keyGenerator='' | cacheManager='' | cacheResolver='' | condition='' | unless='' | sync='false'
+	at org.springframework.cache.interceptor.AbstractCacheResolver.resolveCaches(AbstractCacheResolver.java:92)
+	at org.springframework.cache.interceptor.CacheAspectSupport.getCaches(CacheAspectSupport.java:252)
+	at org.springframework.cache.interceptor.CacheAspectSupport$CacheOperationContext.<init>(CacheAspectSupport.java:707)
+	at org.springframework.cache.interceptor.CacheAspectSupport.getOperationContext(CacheAspectSupport.java:265)
+	at org.springframework.cache.interceptor.CacheAspectSupport$CacheOperationContexts.<init>(CacheAspectSupport.java:598)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:345)
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at gov.naco.soch.ictc.service.MajorListService$$EnhancerBySpringCGLIB$$d4f4fade.findCount(<generated>)
+	at gov.naco.soch.ictc.controller.MajorListController.getAllICTCBeneficiaryVisitsBasic(MajorListController.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at gov.naco.soch.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2024-02-21 11:44:19,888 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-9050-exec-2] Resolved [java.lang.IllegalArgumentException: Cannot find cache named 'ictcBeneficiaryCount' for Builder[public java.lang.Integer gov.naco.soch.ictc.service.MajorListService.findCount(java.lang.Integer,java.lang.Integer,java.lang.Integer)] caches=[ictcBeneficiaryCount] | key='' | keyGenerator='' | cacheManager='' | cacheResolver='' | condition='' | unless='' | sync='false']
+2024-02-21 11:44:19,888 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-2] APIEXECUTIONTIME /ictcNew/ictc/ictc-visit-list/basic-->username-->ictccounsellor:-->2349 ms
+2024-02-21 11:44:25,652 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-4] Got the request-->/ictcNew/ictc/ictc-visit-list/basic:
+2024-02-21 11:44:25,655 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-4] Processing request --> username-->ictccounsellor:request-->/ictcNew/ictc/ictc-visit-list/basic:
+2024-02-21 11:44:25,662 DEBUG com.zaxxer.hikari.pool.ProxyConnection [http-nio-9050-exec-4] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@5f2b689 due to dirty commit state on close().
+2024-02-21 11:44:25,663 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-4] params
+2024-02-21 11:44:25,663 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-4] Entering into Benifciary List method
+2024-02-21 11:44:25,663 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-4] Before querying database: 0 ms
+2024-02-21 11:44:25,663 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-4] adult
+2024-02-21 11:44:25,789 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-4] After querying database: 126 ms
+2024-02-21 11:44:25,789 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-4] Obj Size : {}10
+2024-02-21 11:44:25,793 ERROR gov.naco.soch.aop.ExceptionHandlerAdvice [http-nio-9050-exec-4] EXCEPTION username-->ictccounsellor:request-->uri=/ictcNew/ictc/ictc-visit-list/basic:
+java.lang.IllegalArgumentException: Cannot find cache named 'ictcBeneficiaryCount' for Builder[public java.lang.Integer gov.naco.soch.ictc.service.MajorListService.findCount(java.lang.Integer,java.lang.Integer,java.lang.Integer)] caches=[ictcBeneficiaryCount] | key='' | keyGenerator='' | cacheManager='' | cacheResolver='' | condition='' | unless='' | sync='false'
+	at org.springframework.cache.interceptor.AbstractCacheResolver.resolveCaches(AbstractCacheResolver.java:92)
+	at org.springframework.cache.interceptor.CacheAspectSupport.getCaches(CacheAspectSupport.java:252)
+	at org.springframework.cache.interceptor.CacheAspectSupport$CacheOperationContext.<init>(CacheAspectSupport.java:707)
+	at org.springframework.cache.interceptor.CacheAspectSupport.getOperationContext(CacheAspectSupport.java:265)
+	at org.springframework.cache.interceptor.CacheAspectSupport$CacheOperationContexts.<init>(CacheAspectSupport.java:598)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:345)
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at gov.naco.soch.ictc.service.MajorListService$$EnhancerBySpringCGLIB$$d4f4fade.findCount(<generated>)
+	at gov.naco.soch.ictc.controller.MajorListController.getAllICTCBeneficiaryVisitsBasic(MajorListController.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at gov.naco.soch.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2024-02-21 11:44:25,795 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-9050-exec-4] Resolved [java.lang.IllegalArgumentException: Cannot find cache named 'ictcBeneficiaryCount' for Builder[public java.lang.Integer gov.naco.soch.ictc.service.MajorListService.findCount(java.lang.Integer,java.lang.Integer,java.lang.Integer)] caches=[ictcBeneficiaryCount] | key='' | keyGenerator='' | cacheManager='' | cacheResolver='' | condition='' | unless='' | sync='false']
+2024-02-21 11:44:25,795 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-4] APIEXECUTIONTIME /ictcNew/ictc/ictc-visit-list/basic-->username-->ictccounsellor:-->143 ms
+2024-02-21 11:44:38,787 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-6] Got the request-->/ictcNew/ictc/ictc-visit-list/basic:
+2024-02-21 11:44:38,789 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-6] Processing request --> username-->ictccounsellor:request-->/ictcNew/ictc/ictc-visit-list/basic:
+2024-02-21 11:44:38,795 DEBUG com.zaxxer.hikari.pool.ProxyConnection [http-nio-9050-exec-6] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@5f2b689 due to dirty commit state on close().
+2024-02-21 11:44:38,796 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-6] params
+2024-02-21 11:44:38,797 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-6] Entering into Benifciary List method
+2024-02-21 11:44:38,797 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-6] Before querying database: 0 ms
+2024-02-21 11:44:38,797 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-6] infant
+2024-02-21 11:44:38,837 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-6] After querying database: 40 ms
+2024-02-21 11:44:38,837 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-6] Obj Size : {}10
+2024-02-21 11:44:38,840 ERROR gov.naco.soch.aop.ExceptionHandlerAdvice [http-nio-9050-exec-6] EXCEPTION username-->ictccounsellor:request-->uri=/ictcNew/ictc/ictc-visit-list/basic:
+java.lang.IllegalArgumentException: Cannot find cache named 'ictcBeneficiaryCount' for Builder[public java.lang.Integer gov.naco.soch.ictc.service.MajorListService.findCount(java.lang.Integer,java.lang.Integer,java.lang.Integer)] caches=[ictcBeneficiaryCount] | key='' | keyGenerator='' | cacheManager='' | cacheResolver='' | condition='' | unless='' | sync='false'
+	at org.springframework.cache.interceptor.AbstractCacheResolver.resolveCaches(AbstractCacheResolver.java:92)
+	at org.springframework.cache.interceptor.CacheAspectSupport.getCaches(CacheAspectSupport.java:252)
+	at org.springframework.cache.interceptor.CacheAspectSupport$CacheOperationContext.<init>(CacheAspectSupport.java:707)
+	at org.springframework.cache.interceptor.CacheAspectSupport.getOperationContext(CacheAspectSupport.java:265)
+	at org.springframework.cache.interceptor.CacheAspectSupport$CacheOperationContexts.<init>(CacheAspectSupport.java:598)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:345)
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at gov.naco.soch.ictc.service.MajorListService$$EnhancerBySpringCGLIB$$d4f4fade.findCount(<generated>)
+	at gov.naco.soch.ictc.controller.MajorListController.getAllICTCBeneficiaryVisitsBasic(MajorListController.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at gov.naco.soch.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2024-02-21 11:44:38,841 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-9050-exec-6] Resolved [java.lang.IllegalArgumentException: Cannot find cache named 'ictcBeneficiaryCount' for Builder[public java.lang.Integer gov.naco.soch.ictc.service.MajorListService.findCount(java.lang.Integer,java.lang.Integer,java.lang.Integer)] caches=[ictcBeneficiaryCount] | key='' | keyGenerator='' | cacheManager='' | cacheResolver='' | condition='' | unless='' | sync='false']
+2024-02-21 11:44:38,841 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-6] APIEXECUTIONTIME /ictcNew/ictc/ictc-visit-list/basic-->username-->ictccounsellor:-->54 ms
+2024-02-21 11:44:41,606 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-02-21 11:44:41,606 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-02-21 11:44:51,656 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [Thread-1] Shutting down ExecutorService 'taskScheduler'
+2024-02-21 11:44:51,658 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-1] Shutting down ExecutorService 'applicationTaskExecutor'
+2024-02-21 11:44:51,816 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-21 11:44:51,820 INFO org.ehcache.core.EhcacheManager [Thread-1] Cache 'default-query-results-region' removed from EhcacheManager.
+2024-02-21 11:44:51,822 INFO org.ehcache.core.EhcacheManager [Thread-1] Cache 'default-update-timestamps-region' removed from EhcacheManager.
+2024-02-21 11:44:51,824 INFO com.zaxxer.hikari.HikariDataSource [Thread-1] SpringBootJPAHikariCP - Shutdown initiated...
+2024-02-21 11:44:51,824 DEBUG com.zaxxer.hikari.pool.HikariPool [Thread-1] SpringBootJPAHikariCP - Before shutdown stats (total=20, active=0, idle=20, waiting=0)
+2024-02-21 11:44:51,825 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@5f2b689: (connection evicted)
+2024-02-21 11:44:51,826 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@33931d42: (connection evicted)
+2024-02-21 11:44:51,827 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@3d54f540: (connection evicted)
+2024-02-21 11:44:51,827 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@396b7632: (connection evicted)
+2024-02-21 11:44:51,828 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@7c69ff7b: (connection evicted)
+2024-02-21 11:44:51,828 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@573b84b9: (connection evicted)
+2024-02-21 11:44:51,829 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@4d5f85eb: (connection evicted)
+2024-02-21 11:44:51,829 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@2fe7a094: (connection evicted)
+2024-02-21 11:44:51,829 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@1c460034: (connection evicted)
+2024-02-21 11:44:51,829 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@17d34149: (connection evicted)
+2024-02-21 11:44:51,830 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@2692ee85: (connection evicted)
+2024-02-21 11:44:51,830 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@34e309c3: (connection evicted)
+2024-02-21 11:44:51,830 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@1808f8cb: (connection evicted)
+2024-02-21 11:44:51,831 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@155c2b8a: (connection evicted)
+2024-02-21 11:44:51,831 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@240b1962: (connection evicted)
+2024-02-21 11:44:51,831 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@80aa131: (connection evicted)
+2024-02-21 11:44:51,832 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@579bde5b: (connection evicted)
+2024-02-21 11:44:51,832 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@23efbf59: (connection evicted)
+2024-02-21 11:44:51,833 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@5f53624f: (connection evicted)
+2024-02-21 11:44:51,833 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@28d53bd: (connection evicted)
+2024-02-21 11:44:51,834 DEBUG com.zaxxer.hikari.pool.HikariPool [Thread-1] SpringBootJPAHikariCP - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-02-21 11:44:51,834 INFO com.zaxxer.hikari.HikariDataSource [Thread-1] SpringBootJPAHikariCP - Shutdown completed.

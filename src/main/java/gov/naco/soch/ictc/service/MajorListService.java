@@ -10,6 +10,7 @@ import javax.transaction.Transactional;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
@@ -27,19 +28,25 @@ public class MajorListService {
 
 	@Autowired
 	private IctcListsRepository ictcListsRepository;
-	
+//	categoryId.notEquals=1
 	
 	Logger log = LoggerFactory.getLogger (MajorListService.class);
 	
-//	public Integer findCount(Integer equalsFacilityId, Integer notEqualsCategoryId,Integer equalsCategoryId) {
-//		if(notEqualsCategoryId != null) {
-//			return ictcListsRepository.countOfBeneficiaryNotCategory(equalsFacilityId, notEqualsCategoryId);
-//		}
-//		else {
-//			return ictcListsRepository.countOfBeneficiary(equalsFacilityId, equalsCategoryId);
-//		}
-//		
-//	}
+	
+	@Cacheable(value = "IctcBeneficiaryCount")
+	public Integer findCount(Integer equalsFacilityId, Integer notEqualsCategoryId,Integer equalsCategoryId) {
+		if(notEqualsCategoryId == null) {
+			List<Object []> obj =  ictcListsRepository.countOfBeneficiaryNotCategory(equalsFacilityId, equalsCategoryId);
+			return obj.size();
+		}
+		else {
+//		log.info(equalsFacilityId+"xxxxxxxxx"+equalsCategoryId+"yyyyyyyyyy"+equalsCategoryId);
+		List<Object []> obj = ictcListsRepository.countOfBeneficiary(equalsFacilityId, notEqualsCategoryId);
+//		log.info(obj.size()+"zyx");
+		return obj.size();
+		}
+		
+	}
 	
 	public List<ICTCVisitList> findByCriteriaBasic(int equalsFacilityId, Integer notEqualsCategoryId,Integer equalsCategoryId, String pid, String mobile, String firstName , Pageable page) {
 		
@@ -55,10 +62,12 @@ public class MajorListService {
 		List<Object[]> obj;
 		if(notEqualsCategoryId != null) {
 			//not equal wala case hai <>
+			log.info("adult");
 			obj= ictcListsRepository.listOfBeneficiaryNotCategory(equalsFacilityId, categoryId, "%"+pid+"%", page );
 		}
 		else {
 			// equal wala case hai =
+			log.info("infant");
 			obj= ictcListsRepository.listOfBeneficiary(equalsFacilityId, "%"+pid+"%", page );
 		}
 		
@@ -72,7 +81,7 @@ public class MajorListService {
 			    	
 			    	ICTCVisitList mapper = new ICTCVisitList();
 		        	try {
-			    	
+		        		mapper.setDateOfBirth(dto[14] != null ? (Date) dto[14] : null); 	
 		        	//important
 		        	mapper.setId(dto[0] != null ? ((Integer) dto[0]).intValue() : null);
 		        	mapper.setUid(dto[1] != null ? (String) dto[1] : null);
@@ -84,24 +93,34 @@ public class MajorListService {
 		        	mapper.setBeneficiaryId(dto[7] != null ? ((Integer) dto[7]).intValue() : null);
 		        	mapper.setMobileNumber(dto[8] != null ? (String) dto[8] : null);
 		        	mapper.setAge(dto[9] != null ? (String) dto[9] : null);
+		        	
 		        	mapper.setGenderId(dto[18] != null ? ((Integer) dto[18]).intValue() : null);
-		        	mapper.setIsPregnant(dto[10] != null ? (Boolean) dto[10] : null);
+		        	mapper.setHivStatusDesc(dto[25] != null ? (String) dto[25] : null);
+	        		mapper.setInfantCode(dto[26] != null ? (String) dto[26] : null);
+//	        		mapper.setDateOfBirth(dto[14] != null ? (Date) dto[14] : null); 	
+	        		
+	        		mapper.setBeneficiaryStatusDesc(dto[24] != null ? (String) dto[24] : null);
+	        		
+	        		mapper.setIsPregnant(dto[10] != null ? (Boolean) dto[10] : null);
 		        	mapper.setTestedDate(dto[11] != null ? (Date) dto[11] : null);
-		        	mapper.setHivStatus(dto[12] != null ? ((Integer) dto[12]).intValue() : null);
-	        		mapper.setHivType(dto[13] != null ? ((Integer) dto[13]).intValue() : null);
-	        		mapper.setDateOfBirth(dto[14] != null ? (Date) dto[14] : null); 
+		        	mapper.setHivStatus(dto[12] != null ? ((Integer) dto[12]).intValue() : null);  //
+	        		mapper.setHivType(dto[13] != null ? ((Integer) dto[13]).intValue() : null); //
+	        		//14 uppar hai
+//	        		mapper.setDateOfBirth(dto[14] != null ? (Date) dto[14] : null); 
+	        		
 		        	mapper.setResultStatus(dto[15] != null ? ((Integer) dto[15]).intValue() : null);
 	        		mapper.setVisitId(dto[16] != null ? ((Integer) dto[16]).intValue() : null);
+	        		
 	        		mapper.setBeneficiaryStatus(dto[17] != null ? ((Integer) dto[17]).intValue() : null);
 	        		mapper.setGenderId(dto[18] != null ? ((Integer) dto[18]).intValue() : null);
+	        		
 	        		mapper.setIsActive(dto[19] != null ? (Boolean) dto[19] : null);
 	        		mapper.setIsDeleted(dto[20] != null ? (Boolean) dto[20] : null);
 	        		mapper.setDeletedReason(dto[21] != null ? ((Integer) dto[21]).intValue() : null);
 	        		mapper.setDeletedReasonComment(dto[22] != null ? (String) dto[22] : null);
 	        		mapper.setRegisteredFacilityId(dto[23] != null ? ((Integer) dto[23]).intValue() : null);
 	        		mapper.setBeneficiaryStatusDesc(dto[24] != null ? (String) dto[24] : null);
-	        		mapper.setHivStatusDesc(dto[25] != null ? (String) dto[25] : null);
-	        		mapper.setInfantCode(dto[26] != null ? (String) dto[26] : null);
+	        	
 		        	}catch(Exception ex) {
 		        		ex.getMessage();
 		        	}
@@ -118,22 +137,36 @@ public class MajorListService {
 	}
 	
 	
-	public List<NewICTCDto> getTestResult(int equalsFacilityId,Integer equalsCategoryId, String testType , Pageable page){
+	public List<NewICTCDto> getTestResult(int equalsFacilityId,Integer equalsCategoryId, String testType , String firstName, String lastName,Pageable page,Integer pageNumber, Integer pageSize){
 		
 		List<Object[]> obj; 
 		long startTime = System.currentTimeMillis();
 		log.info("Entering into Benifciary List method");
 		
 		long beforeQueryTime = System.currentTimeMillis();//akshat
-	    log.info("Before querying database: " + (beforeQueryTime - startTime) + " ms");//a
-		obj = ictcListsRepository.listOfICTCResultView(equalsFacilityId, page);
+	    log.info("Before querying database: " + (beforeQueryTime - startTime) + " ms");
+	    
+	    List<NewICTCDto> dtoList = new ArrayList<>();
 		
-		List<NewICTCDto> dtoList = new ArrayList<>();
+		if ( firstName != null) {
+			log.info("case 1");
+			obj = ictcListsRepository.listOfICTCResultViewSearch(equalsFacilityId, firstName ,page);
+		}else {
+			log.info("case 2");
+			obj = ictcListsRepository.listOfICTCResultView(equalsFacilityId, page);
+		}
+		
 		long afterQueryTime = System.currentTimeMillis();
 	    log.info("After querying database: " + (afterQueryTime - beforeQueryTime) + " ms");
+	    
+	    if (pageSize != null && pageNumber != null) {
+			page = PageRequest.of(pageNumber, pageSize);
+		} else {
+			page = PageRequest.of(0, 10);
+		}
+	    	    
 		dtoList = obj.stream()
-			    .map(dto -> {
-			    	
+			    .map(dto -> {	    	
 			    	NewICTCDto mapper = new NewICTCDto();
 		        	try {
 		        		
@@ -199,11 +232,18 @@ public class MajorListService {
 	}
 	
 	
-	public List<NewICTCDto> getTestResultAdvacne(int equalsFacilityId,Integer equalsCategoryId, String testType , Pageable page){
+	public List<NewICTCDto> getTestResultAdvacne(int equalsFacilityId,Integer equalsCategoryId, String testType , String firstName, Pageable page){
 		
 		List<Object[]> obj; 
 		
-		obj = ictcListsRepository.listOfICTCResultViewAdv(equalsFacilityId, page);
+		if (firstName == null) {
+			   log.info("1");
+			obj = ictcListsRepository.listOfICTCResultViewAdv(equalsFacilityId, page);
+		}else {
+			log.info("2");
+			obj = ictcListsRepository.listOfICTCResultViewAdvSearch(equalsFacilityId, firstName, page);
+		}
+		
 		
 		List<NewICTCDto> dtoList = new ArrayList<>();
 		dtoList = obj.stream()
@@ -291,11 +331,12 @@ public class MajorListService {
 	    	    log.info("Before querying database: " + (beforeQueryTime - startTime) + " ms");//a
 	    	    
 	    		List<Object[]> obj = new ArrayList<>();
-	    		log.info(""+facilityId, beneficiary_status, isPostTestCounsellingCompleted, categoryId ,pageable);
-	    		searchParam ='%' + searchParam.toLowerCase().trim() + '%';
-	    		if (searchParam.isEmpty() || searchParam== null) {
-	    			obj = ictcListsRepository.findDataic1(facilityId, beneficiary_status, categoryId);
+	    		
+	    		log.info(searchParam+"search");
+	    		if (searchParam.trim().isEmpty() || searchParam == null ) {
+	    			obj = ictcListsRepository.findDataic1(facilityId, beneficiary_status, categoryId, pageable);
 	    		}else {
+	    			searchParam ='%' + searchParam.toLowerCase().trim() + '%';
 	    			obj = ictcListsRepository.findDataic1Search(facilityId, beneficiary_status, categoryId, searchParam ,pageable);
 	    		}
 	    		
@@ -326,7 +367,7 @@ public class MajorListService {
 	    		        		mapper.setHivStatusDesc(dto[16] != null ? dto[16].toString() : null);
 	    		        		mapper.setResultId(dto[17] != null ? ((Integer) dto[17]).intValue() : null);
 	    		        		mapper.setCurrentResultId(dto[17] != null ? ((Integer) dto[17]).intValue() : null);
-	    		        		
+	    		        		mapper.setReferred_by(dto[18] != null ? dto[18].toString() : null);
 	    		        	}catch(Exception ex) {
 	    		        		ex.getMessage();
 	    		        	}
@@ -398,24 +439,24 @@ public class MajorListService {
 	    	}
 	 
 	    
-		
-//	       public Integer countList(Integer facilityId, Integer beneficiary_status,Integer categoryId) {
-//	    	   long startTime = System.currentTimeMillis();
-//	 			log.info("Entering into Pre Post List Count method");
-//	 			long beforeQueryTime = System.currentTimeMillis();//akshat
-//	    	    log.info("Before querying database: " + (beforeQueryTime - startTime) + " ms");//a
-//					if(beneficiary_status == 2) {
-//						return ictcListsRepository.countPostTestCouncelling(facilityId,beneficiary_status, categoryId);
-//					}
-//					else {
-//						return ictcListsRepository.countPreTestCouncelling(facilityId,beneficiary_status, categoryId);
-//					}
-//	       }
-//	       
-
-//	       public Integer countListSearch(Integer facilityId, Integer beneficiary_status,Integer categoryId) {
-//	    	   return ictcListsRepository.countPostTestCouncellingSearch(facilityId,beneficiary_status, categoryId);
-//	       }
+	 		@Cacheable(value = "PostPreCouncelling")
+	       public Integer countList(Integer facilityId, Integer beneficiary_status,Integer categoryId) {
+	    	   long startTime = System.currentTimeMillis();
+	 			log.info("Entering into Pre Post List Count method");
+	 			long beforeQueryTime = System.currentTimeMillis();//akshat
+	    	    log.info("Before querying database: " + (beforeQueryTime - startTime) + " ms");//a
+					if(beneficiary_status == 2) {
+						return ictcListsRepository.countPostTestCouncelling(facilityId, beneficiary_status);
+					}
+					else {
+						return ictcListsRepository.countPreTestCouncelling(facilityId, beneficiary_status);
+					}
+	       }
+	       
+	 		@Cacheable(value = "SearchCount")
+	       public Integer countListSearch(Integer facilityId, Integer beneficiary_status,Integer categoryId) {
+	    	   return ictcListsRepository.countPostTestCouncellingSearch(facilityId,beneficiary_status, categoryId);
+	       }
 	       
 	       public List<NewICTCDto>findArtBeneficiariesByBasicSearch( Long facilityID, String search) {
 	    	   List<Object[]> obj = new ArrayList<>();
@@ -527,9 +568,8 @@ public class MajorListService {
 	   		return dtoList;
 	   		
 	   	}
-	       
-//	       public Integer findCountPW(Integer equalsFacilityId, Integer notEqualsCategoryId,Integer equalsCategoryId) {
-//		   		if(notEqualsCategoryId != null) return ictcListsRepository.countOfBeneficiaryNotCategoryPW(equalsFacilityId, notEqualsCategoryId);   		
-//		   		return 0;
-//		   }
+	       public Integer findCountPW(Integer equalsFacilityId, Integer notEqualsCategoryId,Integer equalsCategoryId) {
+		   		if(notEqualsCategoryId != null) return ictcListsRepository.countOfBeneficiaryNotCategoryPW(equalsFacilityId, notEqualsCategoryId);   		
+		   		return 0;
+		   }
 }

@@ -1,0 +1,501 @@
+2024-03-19 10:26:42,197 INFO gov.naco.soch.ictc.IctcApplication [restartedMain] Starting IctcApplication on DESKTOP-N2FUUPQ with PID 3832 (D:\sochbackend\ictcNew\target\classes started by NACO in D:\sochbackend\ictcNew)
+2024-03-19 10:26:42,203 INFO gov.naco.soch.ictc.IctcApplication [restartedMain] The following profiles are active: @env@
+2024-03-19 10:26:42,258 INFO org.springframework.boot.devtools.restart.ChangeableUrls [restartedMain] The Class-Path manifest attribute in C:\Users\NACO\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/NACO/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2024-03-19 10:26:42,260 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-19 10:26:42,260 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-19 10:26:43,067 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-19 10:26:43,935 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 862ms. Found 457 JPA repository interfaces.
+2024-03-19 10:26:44,820 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-19 10:26:44,865 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-19 10:26:44,871 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-19 10:26:44,873 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1063bd47' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-19 10:26:44,883 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-19 10:26:44,887 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-19 10:26:45,421 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9050 (http)
+2024-03-19 10:26:45,431 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2024-03-19 10:26:45,431 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2024-03-19 10:26:45,550 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/ictcNew] [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-03-19 10:26:45,551 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 3291 ms
+2024-03-19 10:26:46,192 INFO org.ehcache.shadow.org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource [restartedMain] Allocating 10.0MB in chunks
+2024-03-19 10:26:46,210 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'IctcBeneficiaryCount' created in EhcacheManager.
+2024-03-19 10:26:46,214 INFO org.ehcache.shadow.org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource [restartedMain] Allocating 10.0MB in chunks
+2024-03-19 10:26:46,217 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'PostPreCouncelling' created in EhcacheManager.
+2024-03-19 10:26:46,220 INFO org.ehcache.shadow.org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource [restartedMain] Allocating 10.0MB in chunks
+2024-03-19 10:26:46,224 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'SearchCount' created in EhcacheManager.
+2024-03-19 10:26:46,281 INFO org.ehcache.jsr107.Eh107CacheManager [restartedMain] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./D./sochbackend/ictcNew/target/classes/ehcache.xml,Cache=IctcBeneficiaryCount
+2024-03-19 10:26:46,283 INFO org.ehcache.jsr107.Eh107CacheManager [restartedMain] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./D./sochbackend/ictcNew/target/classes/ehcache.xml,Cache=PostPreCouncelling
+2024-03-19 10:26:46,283 INFO org.ehcache.jsr107.Eh107CacheManager [restartedMain] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./D./sochbackend/ictcNew/target/classes/ehcache.xml,Cache=SearchCount
+2024-03-19 10:26:46,288 INFO org.ehcache.jsr107.Eh107CacheManager [restartedMain] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./D./sochbackend/ictcNew/target/classes/ehcache.xml,Cache=IctcBeneficiaryCount
+2024-03-19 10:26:46,289 INFO org.ehcache.jsr107.Eh107CacheManager [restartedMain] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./D./sochbackend/ictcNew/target/classes/ehcache.xml,Cache=PostPreCouncelling
+2024-03-19 10:26:46,290 INFO org.ehcache.jsr107.Eh107CacheManager [restartedMain] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./D./sochbackend/ictcNew/target/classes/ehcache.xml,Cache=SearchCount
+2024-03-19 10:26:46,349 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] Driver class org.postgresql.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ictcNew
+  delegate: true
+----------> Parent Classloader:
+org.springframework.boot.devtools.restart.classloader.RestartClassLoader@636f214a
+
+2024-03-19 10:26:46,658 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-19 10:26:46,724 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.4.9.Final}
+2024-03-19 10:26:46,812 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-03-19 10:26:46,911 WARN com.zaxxer.hikari.HikariConfig [restartedMain] SpringBootJPAHikariCP - maxLifetime is less than 30000ms, setting to default 1800000ms.
+2024-03-19 10:26:46,911 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] SpringBootJPAHikariCP - configuration:
+2024-03-19 10:26:46,913 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] allowPoolSuspension.............false
+2024-03-19 10:26:46,913 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] autoCommit......................false
+2024-03-19 10:26:46,913 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] catalog.........................none
+2024-03-19 10:26:46,913 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] connectionInitSql...............none
+2024-03-19 10:26:46,913 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] connectionTestQuery.............none
+2024-03-19 10:26:46,913 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] connectionTimeout...............50000
+2024-03-19 10:26:46,913 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] dataSource......................none
+2024-03-19 10:26:46,913 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] dataSourceClassName.............none
+2024-03-19 10:26:46,913 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] dataSourceJNDI..................none
+2024-03-19 10:26:46,913 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] dataSourceProperties............{password=<masked>}
+2024-03-19 10:26:46,913 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] driverClassName................."org.postgresql.Driver"
+2024-03-19 10:26:46,914 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] healthCheckProperties...........{}
+2024-03-19 10:26:46,914 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] healthCheckRegistry.............none
+2024-03-19 10:26:46,914 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] idleTimeout.....................10000
+2024-03-19 10:26:46,914 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] initializationFailTimeout.......1
+2024-03-19 10:26:46,914 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] isolateInternalQueries..........false
+2024-03-19 10:26:46,914 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] jdbcUrl.........................jdbc:postgresql://10.25.69.25:5432/soch_local_app_db?currentSchema=prison
+2024-03-19 10:26:46,914 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] leakDetectionThreshold..........0
+2024-03-19 10:26:46,914 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] maxLifetime.....................1800000
+2024-03-19 10:26:46,914 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] maximumPoolSize.................120
+2024-03-19 10:26:46,914 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] metricRegistry..................none
+2024-03-19 10:26:46,914 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] metricsTrackerFactory...........none
+2024-03-19 10:26:46,914 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] minimumIdle.....................20
+2024-03-19 10:26:46,914 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] password........................<masked>
+2024-03-19 10:26:46,914 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] poolName........................"SpringBootJPAHikariCP"
+2024-03-19 10:26:46,914 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] readOnly........................false
+2024-03-19 10:26:46,914 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] registerMbeans..................false
+2024-03-19 10:26:46,914 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] scheduledExecutor...............none
+2024-03-19 10:26:46,914 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] schema..........................none
+2024-03-19 10:26:46,915 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] threadFactory...................internal
+2024-03-19 10:26:46,915 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] transactionIsolation............default
+2024-03-19 10:26:46,915 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] username........................"soch_stag_app_user"
+2024-03-19 10:26:46,915 DEBUG com.zaxxer.hikari.HikariConfig [restartedMain] validationTimeout...............5000
+2024-03-19 10:26:46,915 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] SpringBootJPAHikariCP - Starting...
+2024-03-19 10:26:46,987 DEBUG com.zaxxer.hikari.pool.HikariPool [restartedMain] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@5edbd9b
+2024-03-19 10:26:46,989 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] SpringBootJPAHikariCP - Start completed.
+2024-03-19 10:26:47,006 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-03-19 10:26:47,104 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=1, active=1, idle=0, waiting=0)
+2024-03-19 10:26:47,105 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=1, active=1, idle=0, waiting=0)
+2024-03-19 10:26:47,116 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@420d1d5d
+2024-03-19 10:26:47,125 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@4ccaeb6c
+2024-03-19 10:26:47,133 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@48f5762d
+2024-03-19 10:26:47,144 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@df7e157
+2024-03-19 10:26:47,153 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@273ae241
+2024-03-19 10:26:47,162 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@3c30ec41
+2024-03-19 10:26:47,172 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@5f17b1f4
+2024-03-19 10:26:47,181 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@6dd81e18
+2024-03-19 10:26:47,190 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@1d80d108
+2024-03-19 10:26:47,197 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@2669641d
+2024-03-19 10:26:47,204 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@4413f935
+2024-03-19 10:26:47,211 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@69960771
+2024-03-19 10:26:47,219 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@728583da
+2024-03-19 10:26:47,228 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@1f21581b
+2024-03-19 10:26:47,236 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@4420d09b
+2024-03-19 10:26:47,244 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@1dd4eae1
+2024-03-19 10:26:47,251 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@439131d2
+2024-03-19 10:26:47,260 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@5665583b
+2024-03-19 10:26:47,268 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@1403fe64
+2024-03-19 10:26:47,275 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@2eba8de7
+2024-03-19 10:26:47,275 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP connection adder] SpringBootJPAHikariCP - After adding stats (total=21, active=1, idle=20, waiting=0)
+2024-03-19 10:26:47,813 DEBUG com.zaxxer.hikari.pool.ProxyConnection [restartedMain] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@5edbd9b due to dirty commit state on close().
+2024-03-19 10:26:48,309 WARN org.hibernate.boot.internal.InFlightMetadataCollectorImpl [restartedMain] HHH000069: Duplicate generator name tiOstBeneficiary
+2024-03-19 10:26:48,572 WARN org.hibernate.orm.cache [restartedMain] HHH90001006: Missing cache[default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2024-03-19 10:26:48,578 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-update-timestamps-region' created in EhcacheManager.
+2024-03-19 10:26:48,579 WARN org.hibernate.orm.cache [restartedMain] HHH90001006: Missing cache[default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2024-03-19 10:26:48,581 INFO org.ehcache.core.EhcacheManager [restartedMain] Cache 'default-query-results-region' created in EhcacheManager.
+2024-03-19 10:26:51,770 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-03-19 10:26:52,010 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-19 10:26:53,516 INFO gov.naco.soch.security.WebSecurityConfig [restartedMain] Server is starting with crossDomainAllowedOrigins->:
+2024-03-19 10:26:53,554 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5d4b3110, org.springframework.security.web.context.SecurityContextPersistenceFilter@11c6da6b, org.springframework.security.web.header.HeaderWriterFilter@415355be, org.springframework.web.filter.CorsFilter@672db203, org.springframework.security.web.authentication.logout.LogoutFilter@472237c4, gov.naco.soch.security.JwtAuthenticationFilter@655664f1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6d3ebe41, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@de44a00, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1aae2483, org.springframework.security.web.session.SessionManagementFilter@3dc765a9, org.springframework.security.web.access.ExceptionTranslationFilter@14b3ee18, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@da8bfb4]
+2024-03-19 10:27:00,479 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2024-03-19 10:27:00,724 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [restartedMain] Initializing ExecutorService 'taskScheduler'
+2024-03-19 10:27:00,838 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2024-03-19 10:27:00,844 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 13 endpoint(s) beneath base path '/actuator'
+2024-03-19 10:27:00,943 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9050 (http) with context path '/ictcNew'
+2024-03-19 10:27:00,950 INFO gov.naco.soch.ictc.IctcApplication [restartedMain] Started IctcApplication in 19.164 seconds (JVM running for 20.069)
+2024-03-19 10:27:17,110 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=21, active=0, idle=21, waiting=0)
+2024-03-19 10:27:17,112 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:27:17,113 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@2eba8de7: (connection has passed idleTimeout)
+2024-03-19 10:27:18,490 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/ictcNew] [http-nio-9050-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-19 10:27:18,490 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-9050-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-03-19 10:27:18,501 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-9050-exec-1] Completed initialization in 11 ms
+2024-03-19 10:27:18,533 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-2] Got the request-->/ictcNew/ictc/ictc-test-result-views/advanced:
+2024-03-19 10:27:18,632 WARN gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-2] The token is expired and not valid anymore
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2024-03-19T10:24:38Z. Current time: 2024-03-19T10:27:18Z, a difference of 160631 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:385)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541)
+	at gov.naco.soch.security.JwtTokenUtil.getAllClaimsFromToken(JwtTokenUtil.java:54)
+	at gov.naco.soch.security.JwtTokenUtil.getClaimFromToken(JwtTokenUtil.java:44)
+	at gov.naco.soch.security.JwtTokenUtil.getUsernameFromToken(JwtTokenUtil.java:35)
+	at gov.naco.soch.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:97)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2024-03-19 10:27:29,300 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-4] Got the request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:27:29,304 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-4] Processing request --> username-->ictccounsellor:request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:27:29,371 DEBUG com.zaxxer.hikari.pool.ProxyConnection [http-nio-9050-exec-4] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@5edbd9b due to dirty commit state on close().
+2024-03-19 10:27:29,404 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-4] Entering into Benifciary List method
+2024-03-19 10:27:29,404 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-4] Before querying database: 0 ms
+2024-03-19 10:27:29,588 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-4] After querying database: 184 ms
+2024-03-19 10:27:29,588 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-4] Mapping completed. Total time taken: 0 ms
+2024-03-19 10:27:29,604 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-4] APIEXECUTIONTIME /ictcNew/ictc/ictc-test-result-views/basic-->username-->ictccounsellor:-->304 ms
+2024-03-19 10:27:37,697 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-6] Got the request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:27:37,699 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-6] Processing request --> username-->ictccounsellor:request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:27:37,706 DEBUG com.zaxxer.hikari.pool.ProxyConnection [http-nio-9050-exec-6] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@5edbd9b due to dirty commit state on close().
+2024-03-19 10:27:37,707 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-6] Entering into Benifciary List method
+2024-03-19 10:27:37,707 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-6] Before querying database: 0 ms
+2024-03-19 10:27:37,834 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-6] After querying database: 127 ms
+2024-03-19 10:27:37,834 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-6] Mapping completed. Total time taken: 0 ms
+2024-03-19 10:27:37,850 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-6] APIEXECUTIONTIME /ictcNew/ictc/ictc-test-result-views/basic-->username-->ictccounsellor:-->153 ms
+2024-03-19 10:27:42,186 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-7] Got the request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:27:42,188 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-7] Processing request --> username-->ictccounsellor:request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:27:42,189 DEBUG com.zaxxer.hikari.pool.ProxyConnection [http-nio-9050-exec-7] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@5edbd9b due to dirty commit state on close().
+2024-03-19 10:27:42,189 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-7] Entering into Benifciary List method
+2024-03-19 10:27:42,189 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-7] Before querying database: 0 ms
+2024-03-19 10:27:42,314 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-7] After querying database: 125 ms
+2024-03-19 10:27:42,314 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-7] Mapping completed. Total time taken: 0 ms
+2024-03-19 10:27:42,314 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-7] APIEXECUTIONTIME /ictcNew/ictc/ictc-test-result-views/basic-->username-->ictccounsellor:-->128 ms
+2024-03-19 10:27:47,122 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:27:47,122 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:28:17,130 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:28:17,130 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:28:47,131 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:28:47,131 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:29:12,270 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-10] Got the request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:29:12,273 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-10] Processing request --> username-->ictccounsellor:request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:29:12,279 DEBUG com.zaxxer.hikari.pool.ProxyConnection [http-nio-9050-exec-10] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@5edbd9b due to dirty commit state on close().
+2024-03-19 10:29:12,281 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-10] Entering into Benifciary List method
+2024-03-19 10:29:12,282 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-10] Before querying database: 1 ms
+2024-03-19 10:29:12,398 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-10] After querying database: 116 ms
+2024-03-19 10:29:12,398 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-10] Mapping completed. Total time taken: 0 ms
+2024-03-19 10:29:12,398 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-10] APIEXECUTIONTIME /ictcNew/ictc/ictc-test-result-views/basic-->username-->ictccounsellor:-->128 ms
+2024-03-19 10:29:17,146 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:29:17,146 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:29:47,155 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:29:47,155 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:30:17,165 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:30:17,165 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:30:47,173 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:30:47,173 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:31:11,774 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-3] Got the request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:31:11,775 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-3] Processing request --> username-->ictccounsellor:request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:31:11,781 DEBUG com.zaxxer.hikari.pool.ProxyConnection [http-nio-9050-exec-3] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@5edbd9b due to dirty commit state on close().
+2024-03-19 10:31:11,782 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-3] Entering into Benifciary List method
+2024-03-19 10:31:11,783 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-3] Before querying database: 1 ms
+2024-03-19 10:31:11,899 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-3] After querying database: 116 ms
+2024-03-19 10:31:11,899 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-3] Mapping completed. Total time taken: 0 ms
+2024-03-19 10:31:11,899 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-3] APIEXECUTIONTIME /ictcNew/ictc/ictc-test-result-views/basic-->username-->ictccounsellor:-->125 ms
+2024-03-19 10:31:17,178 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:31:17,178 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:31:47,191 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:31:47,191 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:32:17,196 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:32:17,196 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:32:47,199 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:32:47,199 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:32:58,190 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-6] Got the request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:32:58,192 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-6] Processing request --> username-->ictccounsellor:request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:32:58,199 DEBUG com.zaxxer.hikari.pool.ProxyConnection [http-nio-9050-exec-6] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@5edbd9b due to dirty commit state on close().
+2024-03-19 10:32:58,202 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-6] Entering into Benifciary List method
+2024-03-19 10:32:58,202 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-6] Before querying database: 0 ms
+2024-03-19 10:32:58,333 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-6] After querying database: 131 ms
+2024-03-19 10:32:58,334 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-6] Mapping completed. Total time taken: 1 ms
+2024-03-19 10:32:58,335 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-6] APIEXECUTIONTIME /ictcNew/ictc/ictc-test-result-views/basic-->username-->ictccounsellor:-->145 ms
+2024-03-19 10:33:05,543 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-8] Got the request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:33:05,544 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-8] Processing request --> username-->ictccounsellor:request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:33:05,547 DEBUG com.zaxxer.hikari.pool.ProxyConnection [http-nio-9050-exec-8] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@5edbd9b due to dirty commit state on close().
+2024-03-19 10:33:05,547 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-8] Entering into Benifciary List method
+2024-03-19 10:33:05,547 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-8] Before querying database: 0 ms
+2024-03-19 10:33:05,660 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-8] After querying database: 113 ms
+2024-03-19 10:33:05,660 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-8] Mapping completed. Total time taken: 0 ms
+2024-03-19 10:33:05,660 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-8] APIEXECUTIONTIME /ictcNew/ictc/ictc-test-result-views/basic-->username-->ictccounsellor:-->117 ms
+2024-03-19 10:33:17,210 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:33:17,210 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:33:44,549 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-10] Got the request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:33:44,551 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-10] Processing request --> username-->ictccounsellor:request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:33:44,557 DEBUG com.zaxxer.hikari.pool.ProxyConnection [http-nio-9050-exec-10] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@5edbd9b due to dirty commit state on close().
+2024-03-19 10:33:44,558 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-10] Entering into Benifciary List method
+2024-03-19 10:33:44,558 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-10] Before querying database: 0 ms
+2024-03-19 10:33:44,672 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-10] After querying database: 114 ms
+2024-03-19 10:33:44,673 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-10] Mapping completed. Total time taken: 1 ms
+2024-03-19 10:33:44,675 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-10] APIEXECUTIONTIME /ictcNew/ictc/ictc-test-result-views/basic-->username-->ictccounsellor:-->126 ms
+2024-03-19 10:33:47,222 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:33:47,222 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:33:55,885 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-2] Got the request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:33:55,887 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-2] Processing request --> username-->ictccounsellor:request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:33:55,889 DEBUG com.zaxxer.hikari.pool.ProxyConnection [http-nio-9050-exec-2] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@5edbd9b due to dirty commit state on close().
+2024-03-19 10:33:55,889 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-2] Entering into Benifciary List method
+2024-03-19 10:33:55,889 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-2] Before querying database: 0 ms
+2024-03-19 10:33:56,000 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-2] After querying database: 111 ms
+2024-03-19 10:33:56,000 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-2] Mapping completed. Total time taken: 0 ms
+2024-03-19 10:33:56,000 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-2] APIEXECUTIONTIME /ictcNew/ictc/ictc-test-result-views/basic-->username-->ictccounsellor:-->115 ms
+2024-03-19 10:34:17,232 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:34:17,232 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:34:28,771 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-4] Got the request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:34:28,772 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-4] Processing request --> username-->ictccounsellor:request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:34:28,777 DEBUG com.zaxxer.hikari.pool.ProxyConnection [http-nio-9050-exec-4] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@5edbd9b due to dirty commit state on close().
+2024-03-19 10:34:28,777 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-4] Entering into Benifciary List method
+2024-03-19 10:34:28,777 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-4] Before querying database: 0 ms
+2024-03-19 10:34:28,884 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-4] After querying database: 107 ms
+2024-03-19 10:34:28,884 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-4] Mapping completed. Total time taken: 0 ms
+2024-03-19 10:34:28,900 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-4] APIEXECUTIONTIME /ictcNew/ictc/ictc-test-result-views/basic-->username-->ictccounsellor:-->130 ms
+2024-03-19 10:34:47,241 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:34:47,241 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:35:17,243 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:35:17,243 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:35:17,398 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-6] Got the request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:35:17,399 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-6] Processing request --> username-->ictccounsellor:request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:35:17,404 DEBUG com.zaxxer.hikari.pool.ProxyConnection [http-nio-9050-exec-6] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@5edbd9b due to dirty commit state on close().
+2024-03-19 10:35:17,406 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-6] Entering into Benifciary List method
+2024-03-19 10:35:17,406 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-6] Before querying database: 0 ms
+2024-03-19 10:35:17,517 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-6] After querying database: 111 ms
+2024-03-19 10:35:17,517 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-6] Mapping completed. Total time taken: 0 ms
+2024-03-19 10:35:17,519 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-6] APIEXECUTIONTIME /ictcNew/ictc/ictc-test-result-views/basic-->username-->ictccounsellor:-->121 ms
+2024-03-19 10:35:47,251 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:35:47,251 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:36:17,261 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:36:17,261 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:36:47,271 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:36:47,271 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:37:17,276 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:37:17,276 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:37:47,289 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:37:47,289 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:38:17,298 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:38:17,298 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:38:31,853 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-9] Got the request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:38:31,869 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-9] Processing request --> username-->ictccounsellor:request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:38:31,873 DEBUG com.zaxxer.hikari.pool.ProxyConnection [http-nio-9050-exec-9] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@5edbd9b due to dirty commit state on close().
+2024-03-19 10:38:31,873 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-9] Entering into Benifciary List method
+2024-03-19 10:38:31,873 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-9] Before querying database: 0 ms
+2024-03-19 10:38:31,979 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-9] After querying database: 106 ms
+2024-03-19 10:38:31,979 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-9] Mapping completed. Total time taken: 0 ms
+2024-03-19 10:38:31,979 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-9] APIEXECUTIONTIME /ictcNew/ictc/ictc-test-result-views/basic-->username-->ictccounsellor:-->126 ms
+2024-03-19 10:38:47,305 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:38:47,305 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:39:10,422 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-1] Got the request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:39:10,423 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-1] Processing request --> username-->ictccounsellor:request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:39:10,425 DEBUG com.zaxxer.hikari.pool.ProxyConnection [http-nio-9050-exec-1] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@5edbd9b due to dirty commit state on close().
+2024-03-19 10:39:10,430 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-1] Entering into Benifciary List method
+2024-03-19 10:39:10,430 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-1] Before querying database: 0 ms
+2024-03-19 10:39:10,531 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-1] After querying database: 101 ms
+2024-03-19 10:39:10,531 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-1] Mapping completed. Total time taken: 0 ms
+2024-03-19 10:39:10,531 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-1] APIEXECUTIONTIME /ictcNew/ictc/ictc-test-result-views/basic-->username-->ictccounsellor:-->109 ms
+2024-03-19 10:39:14,764 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-2] Got the request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:39:14,766 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-2] Processing request --> username-->ictccounsellor:request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:39:14,770 DEBUG com.zaxxer.hikari.pool.ProxyConnection [http-nio-9050-exec-2] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@5edbd9b due to dirty commit state on close().
+2024-03-19 10:39:14,770 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-2] Entering into Benifciary List method
+2024-03-19 10:39:14,770 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-2] Before querying database: 0 ms
+2024-03-19 10:39:14,879 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-2] After querying database: 109 ms
+2024-03-19 10:39:14,879 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-2] Mapping completed. Total time taken: 0 ms
+2024-03-19 10:39:14,879 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-2] APIEXECUTIONTIME /ictcNew/ictc/ictc-test-result-views/basic-->username-->ictccounsellor:-->115 ms
+2024-03-19 10:39:17,320 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:39:17,320 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:39:47,334 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:39:47,334 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:40:17,346 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:40:17,346 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:40:17,419 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-5] Got the request-->/ictcNew/ictc/ictc-test-result-views/advanced:
+2024-03-19 10:40:17,421 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-5] Processing request --> username-->ictccounsellor:request-->/ictcNew/ictc/ictc-test-result-views/advanced:
+2024-03-19 10:40:17,426 DEBUG com.zaxxer.hikari.pool.ProxyConnection [http-nio-9050-exec-5] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@5edbd9b due to dirty commit state on close().
+2024-03-19 10:40:17,548 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-5] APIEXECUTIONTIME /ictcNew/ictc/ictc-test-result-views/advanced-->username-->ictccounsellor:-->129 ms
+2024-03-19 10:40:18,380 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-7] Got the request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:40:18,381 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-7] Processing request --> username-->ictccounsellor:request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:40:18,387 DEBUG com.zaxxer.hikari.pool.ProxyConnection [http-nio-9050-exec-7] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@5edbd9b due to dirty commit state on close().
+2024-03-19 10:40:18,389 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-7] Entering into Benifciary List method
+2024-03-19 10:40:18,389 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-7] Before querying database: 0 ms
+2024-03-19 10:40:18,502 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-7] After querying database: 113 ms
+2024-03-19 10:40:18,502 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-7] Mapping completed. Total time taken: 0 ms
+2024-03-19 10:40:18,507 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-7] APIEXECUTIONTIME /ictcNew/ictc/ictc-test-result-views/basic-->username-->ictccounsellor:-->127 ms
+2024-03-19 10:40:31,905 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-9] Got the request-->/ictcNew/ictc/ictc-test-result-views/advanced:
+2024-03-19 10:40:31,907 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-9] Processing request --> username-->ictccounsellor:request-->/ictcNew/ictc/ictc-test-result-views/advanced:
+2024-03-19 10:40:31,912 DEBUG com.zaxxer.hikari.pool.ProxyConnection [http-nio-9050-exec-9] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@5edbd9b due to dirty commit state on close().
+2024-03-19 10:40:31,993 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-9] APIEXECUTIONTIME /ictcNew/ictc/ictc-test-result-views/advanced-->username-->ictccounsellor:-->88 ms
+2024-03-19 10:40:32,795 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-1] Got the request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:40:32,796 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-1] Processing request --> username-->ictccounsellor:request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:40:32,801 DEBUG com.zaxxer.hikari.pool.ProxyConnection [http-nio-9050-exec-1] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@5edbd9b due to dirty commit state on close().
+2024-03-19 10:40:32,804 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-1] Entering into Benifciary List method
+2024-03-19 10:40:32,804 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-1] Before querying database: 0 ms
+2024-03-19 10:40:32,911 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-1] After querying database: 107 ms
+2024-03-19 10:40:32,911 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-1] Mapping completed. Total time taken: 0 ms
+2024-03-19 10:40:32,911 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-1] APIEXECUTIONTIME /ictcNew/ictc/ictc-test-result-views/basic-->username-->ictccounsellor:-->116 ms
+2024-03-19 10:40:47,349 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:40:47,350 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:40:48,825 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-3] Got the request-->/ictcNew/ictc/ictc-test-result-views/advanced:
+2024-03-19 10:40:48,827 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-3] Processing request --> username-->ictccounsellor:request-->/ictcNew/ictc/ictc-test-result-views/advanced:
+2024-03-19 10:40:48,833 DEBUG com.zaxxer.hikari.pool.ProxyConnection [http-nio-9050-exec-3] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@5edbd9b due to dirty commit state on close().
+2024-03-19 10:40:48,915 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-3] APIEXECUTIONTIME /ictcNew/ictc/ictc-test-result-views/advanced-->username-->ictccounsellor:-->90 ms
+2024-03-19 10:40:53,211 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-5] Got the request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:40:53,212 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-5] Processing request --> username-->ictccounsellor:request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:40:53,217 DEBUG com.zaxxer.hikari.pool.ProxyConnection [http-nio-9050-exec-5] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@5edbd9b due to dirty commit state on close().
+2024-03-19 10:40:53,218 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-5] Entering into Benifciary List method
+2024-03-19 10:40:53,218 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-5] Before querying database: 0 ms
+2024-03-19 10:40:53,316 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-5] After querying database: 98 ms
+2024-03-19 10:40:53,316 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-5] Mapping completed. Total time taken: 0 ms
+2024-03-19 10:40:53,330 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-5] APIEXECUTIONTIME /ictcNew/ictc/ictc-test-result-views/basic-->username-->ictccounsellor:-->119 ms
+2024-03-19 10:41:17,351 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:41:17,351 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:41:47,364 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:41:47,364 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:42:17,364 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:42:17,364 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:42:47,378 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:42:47,378 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:43:17,393 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:43:17,393 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:43:47,404 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:43:47,404 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:44:17,414 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:44:17,414 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:44:24,581 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-8] Got the request-->/ictcNew/ictc/ictc-test-result-views/advanced:
+2024-03-19 10:44:24,582 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-8] Processing request --> username-->ictccounsellor:request-->/ictcNew/ictc/ictc-test-result-views/advanced:
+2024-03-19 10:44:24,588 DEBUG com.zaxxer.hikari.pool.ProxyConnection [http-nio-9050-exec-8] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@5edbd9b due to dirty commit state on close().
+2024-03-19 10:44:24,662 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-8] APIEXECUTIONTIME /ictcNew/ictc/ictc-test-result-views/advanced-->username-->ictccounsellor:-->81 ms
+2024-03-19 10:44:35,501 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-10] Got the request-->/ictcNew/ictc/ictc-test-result-views/advanced:
+2024-03-19 10:44:35,502 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-10] Processing request --> username-->ictccounsellor:request-->/ictcNew/ictc/ictc-test-result-views/advanced:
+2024-03-19 10:44:35,507 DEBUG com.zaxxer.hikari.pool.ProxyConnection [http-nio-9050-exec-10] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@5edbd9b due to dirty commit state on close().
+2024-03-19 10:44:35,594 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-10] APIEXECUTIONTIME /ictcNew/ictc/ictc-test-result-views/advanced-->username-->ictccounsellor:-->93 ms
+2024-03-19 10:44:40,220 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-2] Got the request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:44:40,222 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-2] Processing request --> username-->ictccounsellor:request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:44:40,228 DEBUG com.zaxxer.hikari.pool.ProxyConnection [http-nio-9050-exec-2] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@5edbd9b due to dirty commit state on close().
+2024-03-19 10:44:40,230 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-2] Entering into Benifciary List method
+2024-03-19 10:44:40,230 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-2] Before querying database: 0 ms
+2024-03-19 10:44:40,341 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-2] After querying database: 111 ms
+2024-03-19 10:44:40,342 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-2] Mapping completed. Total time taken: 1 ms
+2024-03-19 10:44:40,343 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-2] APIEXECUTIONTIME /ictcNew/ictc/ictc-test-result-views/basic-->username-->ictccounsellor:-->123 ms
+2024-03-19 10:44:47,418 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:44:47,418 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:44:53,837 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-4] Got the request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:44:53,839 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-4] Processing request --> username-->ictccounsellor:request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:44:53,841 DEBUG com.zaxxer.hikari.pool.ProxyConnection [http-nio-9050-exec-4] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@5edbd9b due to dirty commit state on close().
+2024-03-19 10:44:53,846 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-4] Entering into Benifciary List method
+2024-03-19 10:44:53,846 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-4] Before querying database: 0 ms
+2024-03-19 10:44:53,946 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-4] After querying database: 100 ms
+2024-03-19 10:44:53,946 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-4] Mapping completed. Total time taken: 0 ms
+2024-03-19 10:44:53,962 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-4] APIEXECUTIONTIME /ictcNew/ictc/ictc-test-result-views/basic-->username-->ictccounsellor:-->125 ms
+2024-03-19 10:45:17,429 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:45:17,429 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:45:47,437 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:45:47,437 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:46:17,446 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:46:17,446 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:46:42,817 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-7] Got the request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:46:42,818 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-7] Processing request --> username-->ictccounsellor:request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:46:42,823 DEBUG com.zaxxer.hikari.pool.ProxyConnection [http-nio-9050-exec-7] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@5edbd9b due to dirty commit state on close().
+2024-03-19 10:46:42,824 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-7] Entering into Benifciary List method
+2024-03-19 10:46:42,825 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-7] Before querying database: 1 ms
+2024-03-19 10:46:42,935 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-7] After querying database: 110 ms
+2024-03-19 10:46:42,935 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-7] Mapping completed. Total time taken: 0 ms
+2024-03-19 10:46:42,937 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-7] APIEXECUTIONTIME /ictcNew/ictc/ictc-test-result-views/basic-->username-->ictccounsellor:-->120 ms
+2024-03-19 10:46:47,451 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:46:47,451 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:47:03,403 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-9] Got the request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:47:03,404 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-9] Processing request --> username-->ictccounsellor:request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:47:03,405 DEBUG com.zaxxer.hikari.pool.ProxyConnection [http-nio-9050-exec-9] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@5edbd9b due to dirty commit state on close().
+2024-03-19 10:47:03,405 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-9] Entering into Benifciary List method
+2024-03-19 10:47:03,405 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-9] Before querying database: 0 ms
+2024-03-19 10:47:03,517 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-9] After querying database: 112 ms
+2024-03-19 10:47:03,517 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-9] Mapping completed. Total time taken: 0 ms
+2024-03-19 10:47:03,517 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-9] APIEXECUTIONTIME /ictcNew/ictc/ictc-test-result-views/basic-->username-->ictccounsellor:-->114 ms
+2024-03-19 10:47:17,037 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-1] Got the request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:47:17,038 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-1] Processing request --> username-->ictccounsellor:request-->/ictcNew/ictc/ictc-test-result-views/basic:
+2024-03-19 10:47:17,042 DEBUG com.zaxxer.hikari.pool.ProxyConnection [http-nio-9050-exec-1] SpringBootJPAHikariCP - Executed rollback on connection org.postgresql.jdbc.PgConnection@5edbd9b due to dirty commit state on close().
+2024-03-19 10:47:17,045 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-1] Entering into Benifciary List method
+2024-03-19 10:47:17,045 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-1] Before querying database: 0 ms
+2024-03-19 10:47:17,145 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-1] After querying database: 100 ms
+2024-03-19 10:47:17,145 INFO gov.naco.soch.ictc.service.MajorListService [http-nio-9050-exec-1] Mapping completed. Total time taken: 0 ms
+2024-03-19 10:47:17,145 INFO gov.naco.soch.security.JwtAuthenticationFilter [http-nio-9050-exec-1] APIEXECUTIONTIME /ictcNew/ictc/ictc-test-result-views/basic-->username-->ictccounsellor:-->108 ms
+2024-03-19 10:47:17,461 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:47:17,461 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:47:47,465 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:47:47,465 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:48:17,480 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:48:17,481 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:48:47,490 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - Before cleanup stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:48:47,490 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringBootJPAHikariCP housekeeper] SpringBootJPAHikariCP - After cleanup  stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:49:14,120 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [Thread-1] Shutting down ExecutorService 'taskScheduler'
+2024-03-19 10:49:14,123 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-1] Shutting down ExecutorService 'applicationTaskExecutor'
+2024-03-19 10:49:14,284 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-19 10:49:14,289 INFO org.ehcache.core.EhcacheManager [Thread-1] Cache 'default-query-results-region' removed from EhcacheManager.
+2024-03-19 10:49:14,291 INFO org.ehcache.core.EhcacheManager [Thread-1] Cache 'default-update-timestamps-region' removed from EhcacheManager.
+2024-03-19 10:49:14,293 INFO com.zaxxer.hikari.HikariDataSource [Thread-1] SpringBootJPAHikariCP - Shutdown initiated...
+2024-03-19 10:49:14,293 DEBUG com.zaxxer.hikari.pool.HikariPool [Thread-1] SpringBootJPAHikariCP - Before shutdown stats (total=20, active=0, idle=20, waiting=0)
+2024-03-19 10:49:14,294 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@5edbd9b: (connection evicted)
+2024-03-19 10:49:14,295 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@420d1d5d: (connection evicted)
+2024-03-19 10:49:14,295 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@4ccaeb6c: (connection evicted)
+2024-03-19 10:49:14,296 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@48f5762d: (connection evicted)
+2024-03-19 10:49:14,296 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@df7e157: (connection evicted)
+2024-03-19 10:49:14,297 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@273ae241: (connection evicted)
+2024-03-19 10:49:14,297 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@3c30ec41: (connection evicted)
+2024-03-19 10:49:14,297 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@5f17b1f4: (connection evicted)
+2024-03-19 10:49:14,298 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@6dd81e18: (connection evicted)
+2024-03-19 10:49:14,298 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@1d80d108: (connection evicted)
+2024-03-19 10:49:14,299 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@2669641d: (connection evicted)
+2024-03-19 10:49:14,299 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@4413f935: (connection evicted)
+2024-03-19 10:49:14,299 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@69960771: (connection evicted)
+2024-03-19 10:49:14,299 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@728583da: (connection evicted)
+2024-03-19 10:49:14,300 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@1f21581b: (connection evicted)
+2024-03-19 10:49:14,300 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@4420d09b: (connection evicted)
+2024-03-19 10:49:14,301 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@1dd4eae1: (connection evicted)
+2024-03-19 10:49:14,301 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@439131d2: (connection evicted)
+2024-03-19 10:49:14,301 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@5665583b: (connection evicted)
+2024-03-19 10:49:14,302 DEBUG com.zaxxer.hikari.pool.PoolBase [SpringBootJPAHikariCP connection closer] SpringBootJPAHikariCP - Closing connection org.postgresql.jdbc.PgConnection@1403fe64: (connection evicted)
+2024-03-19 10:49:14,303 DEBUG com.zaxxer.hikari.pool.HikariPool [Thread-1] SpringBootJPAHikariCP - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-03-19 10:49:14,303 INFO com.zaxxer.hikari.HikariDataSource [Thread-1] SpringBootJPAHikariCP - Shutdown completed.
+2024-03-19 10:49:14,306 INFO org.ehcache.core.EhcacheManager [Thread-1] Cache 'IctcBeneficiaryCount' removed from EhcacheManager.
+2024-03-19 10:49:14,307 INFO org.ehcache.core.EhcacheManager [Thread-1] Cache 'PostPreCouncelling' removed from EhcacheManager.
+2024-03-19 10:49:14,308 INFO org.ehcache.core.EhcacheManager [Thread-1] Cache 'SearchCount' removed from EhcacheManager.

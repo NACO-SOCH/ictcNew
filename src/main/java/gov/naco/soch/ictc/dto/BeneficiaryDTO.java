@@ -25,6 +25,9 @@ public class BeneficiaryDTO {
 		private String hivStatusDesc;
 		private Integer resultId;
 		private Integer currentResultId;
+		private String referred_by;
+		
+		
 		public long getId() {
 			return id;
 		}
@@ -138,5 +141,11 @@ public class BeneficiaryDTO {
 		}
 		public void setCurrentResultId(Integer currentResultId) {
 			this.currentResultId = currentResultId;
+		}
+		public String getReferred_by() {
+			return referred_by;
+		}
+		public void setReferred_by(String referred_by) {
+			this.referred_by = referred_by;
 		}
 }
